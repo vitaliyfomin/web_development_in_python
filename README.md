@@ -1,2 +1,2 @@
-# web_development_in_python
-Web development in Python
+## Итоговая аттестация по программе
+## "Вебразработка на Python"
