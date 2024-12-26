@@ -47,3 +47,20 @@ django-admin startproject recipes_site .
 python manage.py runserver
 ```
 Перейдём в браузер по адресу http://127.0.0.1:8000, чтобы убедиться, что проект работает.
+
+При запуске серера и переход по адресу http://127.0.0.1:8000 будут ошибки так как не выполнены миграции
+```
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+```
+#### Для начало создадим приложения для рецептов:
+```
+python manage.py startapp recipes
+```
+#### Зарегистрируем приложение в project_name/settings.py:
+```
+INSTALLED_APPS = [
+    ...
+    'recipes',
+]
+```
