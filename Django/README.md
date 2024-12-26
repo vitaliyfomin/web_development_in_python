@@ -113,3 +113,48 @@ admin.site.register(Recipe)
 admin.site.register(Category)
 ```
 Перезапустим сервер и зайдём в админ-панель http://127.0.0.1:8000/admin/, чтобы убедиться, что модели доступны.
+
+### Настройка форм
+Создадим файл **recipes/forms.py* с формами для рецептов:
+```
+from django import forms
+from .models import Recipe
+
+class RecipeForm(forms.ModelForm):
+    class Meta:
+        model = Recipe
+        fields = ['title', 'description', 'preparation_steps', 'cooking_time', 'image', 'ingredients', 'categories']
+        widgets = {
+            'categories': forms.CheckboxSelectMultiple(),
+        }
+```
+### Настройка представлений
+Добавим представления в **recipes/views.py*:
+```
+from django.shortcuts import render, get_object_or_404, redirect
+from django.contrib.auth.decorators import login_required
+from .models import Recipe, Category
+from .forms import RecipeForm
+
+def home(request):
+    recipes = Recipe.objects.all().order_by('?')[:5]
+    return render(request, 'home.html', {'recipes': recipes})
+
+def recipe_detail(request, pk):
+    recipe = get_object_or_404(Recipe, pk=pk)
+    return render(request, 'recipe_detail.html', {'recipe': recipe})
+
+@login_required
+def add_recipe(request):
+    if request.method == 'POST':
+        form = RecipeForm(request.POST, request.FILES)
+        if form.is_valid():
+            recipe = form.save(commit=False)
+            recipe.author = request.user
+            recipe.save()
+            form.save_m2m()
+            return redirect('home')
+    else:
+        form = RecipeForm()
+    return render(request, 'recipe_form.html', {'form': form})
+```
