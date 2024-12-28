@@ -5,9 +5,11 @@ from django.db.models.functions import Lower
 
 
 class CustomUser(AbstractUser):
-    USERNAME_FIELD = 'email'  # переопределение поля идентификации
-    REQUIRED_FIELDS = ["username"]
+    # Используем email, как поле для уникальной идентификации
     email = models.EmailField(unique=True)
+
+    USERNAME_FIELD = 'email'  # Переопределяем поле для входа
+    REQUIRED_FIELDS = ["username"]  # Обязательные поля для создания суперпользователя
 
     class Meta:
         constraints = [
@@ -28,7 +30,7 @@ class Recipe(models.Model):
 
 
 class Category(models.Model):
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=100, default="Без названия")  # Добавляем значение по умолчанию
 
     def __str__(self):
         return self.title
