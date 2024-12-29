@@ -55,6 +55,9 @@ Run 'python manage.py migrate' to apply them.
 ```
 ### Создание и выполнение миграций
 Создадим миграцию:
+Сначало удалите содержимое папки *recipebookapp\migrations* оставьте только файл __init__.py
+Так же рекомендуется удалить файл *db.sqlite3* который находится рядом с файлом *manage.py*
+Теперь можно запускать комманды:
 ```
 python manage.py makemigrations
 ```
