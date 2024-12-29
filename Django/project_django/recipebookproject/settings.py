@@ -41,7 +41,7 @@ CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = [
     '192.168.10.2',
     '127.0.0.1',
-    'andybook.pythonanywhere.com',
+    'my site url !!!',
 ]
 
 # Application definition
