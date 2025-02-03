@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px 25px;
+    gap: 25px;
     padding-top: 75px;
 }
 
@@ -96,7 +96,7 @@
     padding: 5px 10px;
     border-color: #ff445c;
     background: transparent;
-    transition: all 0.5s
+    transition: all 0.5s;
 }
 
 .recipes_container .recipe_box .recipe_box__text a:hover {
@@ -109,10 +109,22 @@
         width: 220px;
         border-radius: 15px;
     }
-
-    .recipes_container .recipe_box .img-recipe_box__image {
-        width: 160px;
-        border-radius: 10px;
-    }
-
 }
+
+.footer-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+.copyright_text {
+    margin: 0;
+    color: #FBFBFB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

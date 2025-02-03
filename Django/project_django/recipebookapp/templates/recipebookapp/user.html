@@ -2,8 +2,9 @@
 {% load static %}
 
 {% block my_style %}
-<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
 <link rel="stylesheet" href="{% static 'css/user.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
 {% endblock %}
 
 {% block title %}
@@ -18,20 +19,32 @@
 {% endblock %}
 
 {% block header %}
+Проект "Сайт рецептов" на Django
 {% endblock %}
 
 {% block content %}
-
 <div class="container" id="container">
     <div class="form-container sign-up-container">
         <form method="post">
             {% csrf_token %}
             <h1>Регистрация</h1>
-            {{ reg_form.username }}
-            {{ reg_form.email }}
-            {{ reg_form.password1 }}
-            {{ reg_form.password2 }}
-            <button type="submit" name="register">Зарегистрироваться</button>
+            <div class="input-group">
+                <label for="id_username">Имя пользователя</label>
+                {{ reg_form.username }}
+            </div>
+            <div class="input-group">
+                <label for="id_email">Электронная почта</label>
+                {{ reg_form.email }}
+            </div>
+            <div class="input-group">
+                <label for="id_password1">Пароль</label>
+                {{ reg_form.password1 }}
+            </div>
+            <div class="input-group">
+                <label for="id_password2">Подтверждение пароля</label>
+                {{ reg_form.password2 }}
+            </div>
+            <button type="submit" name="register" class="btn btn-primary">Зарегистрироваться</button>
             {% if messages %}
                 {% for message in messages %}
                     <p class="user_form_error">{{ message }}</p>
@@ -43,9 +56,15 @@
         <form method="post">
             {% csrf_token %}
             <h1>Авторизация</h1>
-            {{ login_form.email }}
-            {{ login_form.password }}
-            <button type="submit" name="login">Войти</button>
+            <div class="input-group">
+                <label for="id_email">Электронная почта</label>
+                {{ login_form.email }}
+            </div>
+            <div class="input-group">
+                <label for="id_password">Пароль</label>
+                {{ login_form.password }}
+            </div>
+            <button type="submit" name="login" class="btn btn-primary">Войти</button>
             {% if messages %}
                 {% for message in messages %}
                     <p class="user_form_error">{{ message }}</p>

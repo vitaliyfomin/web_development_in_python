@@ -38,6 +38,22 @@ pip show Pillow
 ```
 pip install django
 ```
+
+#### Установите модуль dotenv:
+```
+pip install python-dotenv
+```
+### Создайте папку для записи логов:
+web_development_in_python\Django\project_django\logs\
+
+#### Создайте файл .env (там где находится файл manage.py)
+В файл .env добавьте:
+```
+SECRET_KEY= ключ можно сгенерировать на сайте gjecrety.ir
+DEBUG=True
+
+```
+
 #### Создайте новый проект:
 ```
 django-admin startproject recipes_site .

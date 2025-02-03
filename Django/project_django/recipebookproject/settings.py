@@ -39,7 +39,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    '192.168.10.2',
+    '192.168.1.67',
     '127.0.0.1',
     'my site url !!!',
 ]

@@ -1,0 +1,989 @@
+INFO 2025-02-03 10:45:58,829 autoreload 13132 17020 Watching for file changes with StatReloader
+ERROR 2025-02-03 10:46:30,563 basehttp 13132 15952 "GET / HTTP/1.1" 500 59
+ERROR 2025-02-03 10:46:31,056 basehttp 13132 15952 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2025-02-03 10:48:19,839 autoreload 12656 16996 Watching for file changes with StatReloader
+ERROR 2025-02-03 10:48:23,493 basehttp 12656 17064 "GET / HTTP/1.1" 500 59
+ERROR 2025-02-03 10:48:23,850 basehttp 12656 17064 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2025-02-03 10:52:03,489 autoreload 7860 13268 Watching for file changes with StatReloader
+ERROR 2025-02-03 10:52:06,897 basehttp 7860 3464 "GET / HTTP/1.1" 500 59
+ERROR 2025-02-03 10:52:07,280 basehttp 7860 3464 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2025-02-03 10:56:40,574 autoreload 15564 16596 Watching for file changes with StatReloader
+INFO 2025-02-03 10:56:43,677 basehttp 15564 12104 "GET / HTTP/1.1" 200 2632
+WARNING 2025-02-03 10:56:43,797 basehttp 15564 12104 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 10:56:43,880 basehttp 15564 16536 "GET /static/img/cooker_unknown.png HTTP/1.1" 200 28595
+INFO 2025-02-03 10:56:43,882 basehttp 15564 16608 "GET /static/img/cookbook.png HTTP/1.1" 200 52224
+INFO 2025-02-03 10:56:43,882 basehttp 15564 11600 "GET /static/css/recipe_box.css HTTP/1.1" 200 2632
+WARNING 2025-02-03 10:56:44,045 log 15564 11600 Not Found: /favicon.ico
+WARNING 2025-02-03 10:56:44,046 basehttp 15564 11600 "GET /favicon.ico HTTP/1.1" 404 4868
+INFO 2025-02-03 11:00:30,492 autoreload 10316 5708 Watching for file changes with StatReloader
+INFO 2025-02-03 11:00:33,424 basehttp 10316 11972 "GET / HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:00:33,474 basehttp 10316 11972 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:00:35,680 basehttp 10316 13976 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:00:35,782 basehttp 10316 13976 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:00:37,281 basehttp 10316 16332 "GET /user/ HTTP/1.1" 200 4368
+WARNING 2025-02-03 11:00:37,370 basehttp 10316 16332 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:00:37,428 basehttp 10316 5076 "GET /static/css/user.css HTTP/1.1" 200 3864
+INFO 2025-02-03 11:00:37,439 basehttp 10316 15236 "GET /static/js/user.js HTTP/1.1" 200 656
+INFO 2025-02-03 11:14:51,847 basehttp 10316 14240 "GET /index/ HTTP/1.1" 200 2632
+INFO 2025-02-03 11:14:51,960 basehttp 10316 6992 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 11:14:51,960 basehttp 10316 11564 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 11:14:51,960 basehttp 10316 17228 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+WARNING 2025-02-03 11:14:51,960 basehttp 10316 14240 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:39:36,545 basehttp 10316 12192 "GET /user/ HTTP/1.1" 200 4368
+INFO 2025-02-03 11:39:36,664 basehttp 10316 14232 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 11:39:36,664 basehttp 10316 13696 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 11:39:36,664 basehttp 10316 12192 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:39:36,665 basehttp 10316 3868 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 11:46:28,165 basehttp 10316 15396 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:46:28,243 basehttp 10316 15396 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:46:28,244 basehttp 10316 9892 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 11:46:28,246 basehttp 10316 5096 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 11:46:49,472 basehttp 10316 15952 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:46:49,515 basehttp 10316 15952 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:47:10,618 basehttp 10316 13256 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:47:10,662 basehttp 10316 13256 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:47:15,492 basehttp 10316 1200 "GET /user/ HTTP/1.1" 200 4368
+WARNING 2025-02-03 11:47:15,556 basehttp 10316 1200 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:47:19,257 basehttp 10316 5924 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:47:19,313 basehttp 10316 5924 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:48:44,658 basehttp 10316 1256 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:48:44,715 basehttp 10316 1256 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:18,918 basehttp 10316 9016 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:49:18,963 basehttp 10316 9016 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:20,026 basehttp 10316 1256 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:49:20,072 basehttp 10316 1256 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:21,399 basehttp 10316 10352 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:49:21,451 basehttp 10316 10352 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:22,425 basehttp 10316 17216 "GET /user/ HTTP/1.1" 200 4368
+WARNING 2025-02-03 11:49:22,511 basehttp 10316 17216 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:36,526 autoreload 3012 15104 Watching for file changes with StatReloader
+INFO 2025-02-03 11:49:40,301 basehttp 3012 13172 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 11:49:40,351 basehttp 3012 13172 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:49:40,352 basehttp 3012 2684 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 11:53:39,869 basehttp 3012 15852 "GET /index/ HTTP/1.1" 200 2589
+WARNING 2025-02-03 11:53:39,956 basehttp 3012 15852 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:53:42,113 basehttp 3012 17236 "GET /index/ HTTP/1.1" 200 2589
+WARNING 2025-02-03 11:53:42,156 basehttp 3012 17236 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:54:21,442 basehttp 3012 7608 "GET /index/ HTTP/1.1" 200 2590
+WARNING 2025-02-03 11:54:21,491 basehttp 3012 7608 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:54:30,315 basehttp 3012 4480 "GET /index/ HTTP/1.1" 200 2589
+WARNING 2025-02-03 11:54:30,360 basehttp 3012 4480 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 11:54:35,968 basehttp 3012 16948 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 11:56:02,199 basehttp 3012 2724 "GET /index/ HTTP/1.1" 200 2589
+WARNING 2025-02-03 11:56:02,250 basehttp 3012 2724 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:04:10,066 basehttp 3012 14228 "GET /index/ HTTP/1.1" 200 2589
+INFO 2025-02-03 12:04:10,129 basehttp 3012 15120 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:04:10,130 basehttp 3012 10936 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:04:10,130 basehttp 3012 16736 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 12:04:10,131 basehttp 3012 14228 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:04:14,862 basehttp 3012 16736 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:08:24,425 basehttp 3012 16148 "GET /index/ HTTP/1.1" 200 3289
+WARNING 2025-02-03 12:08:24,492 basehttp 3012 16148 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:08:24,524 basehttp 3012 16908 "GET /static/img/logo.svg HTTP/1.1" 404 1850
+INFO 2025-02-03 12:09:14,941 basehttp 3012 1524 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:09:14,989 basehttp 3012 1524 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:17:49,967 basehttp 3012 6852 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:17:50,025 basehttp 3012 6852 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:17:50,025 basehttp 3012 3512 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:17:50,025 basehttp 3012 17120 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:17:50,025 basehttp 3012 13132 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:17:51,927 basehttp 3012 13132 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:17:51,970 basehttp 3012 13132 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:17:57,719 basehttp 3012 17120 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:17:57,777 basehttp 3012 17120 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:18:00,760 basehttp 3012 3512 "GET /user/ HTTP/1.1" 200 4368
+WARNING 2025-02-03 12:18:00,875 basehttp 3012 3512 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:18:00,876 basehttp 3012 13108 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:18:00,877 basehttp 3012 13508 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 12:18:02,507 basehttp 3012 13508 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:18:02,568 basehttp 3012 13508 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:23:03,039 basehttp 3012 15468 "GET /index/ HTTP/1.1" 200 4134
+WARNING 2025-02-03 12:23:03,102 basehttp 3012 3048 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:23:03,103 basehttp 3012 15468 "GET /static/img/logo.svg HTTP/1.1" 404 1850
+WARNING 2025-02-03 12:23:13,886 log 3012 2112 Not Found: /recipes
+WARNING 2025-02-03 12:23:13,887 basehttp 3012 2112 "GET /recipes HTTP/1.1" 404 4856
+WARNING 2025-02-03 12:23:16,518 log 3012 2112 Not Found: /about
+WARNING 2025-02-03 12:23:16,520 basehttp 3012 2112 "GET /about HTTP/1.1" 404 4850
+INFO 2025-02-03 12:23:20,214 basehttp 3012 2112 "GET / HTTP/1.1" 200 4134
+WARNING 2025-02-03 12:23:20,285 basehttp 3012 2112 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:23:20,285 basehttp 3012 16244 "GET /static/img/logo.svg HTTP/1.1" 404 1850
+INFO 2025-02-03 12:23:23,409 basehttp 3012 10712 "GET /index/ HTTP/1.1" 200 4134
+WARNING 2025-02-03 12:23:23,463 basehttp 3012 10712 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:23:23,467 basehttp 3012 15784 "GET /static/img/logo.svg HTTP/1.1" 404 1850
+WARNING 2025-02-03 12:23:24,788 basehttp 3012 14980 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 12:23:27,728 basehttp 3012 17384 "GET /static/img/logo.svg HTTP/1.1" 404 1850
+INFO 2025-02-03 12:23:55,147 basehttp 3012 13072 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:23:55,199 basehttp 3012 13072 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:25:55,714 basehttp 3012 12976 "GET /user/ HTTP/1.1" 200 4368
+WARNING 2025-02-03 12:25:55,786 basehttp 3012 12976 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:26:01,743 basehttp 3012 11904 "GET /index/ HTTP/1.1" 200 2632
+WARNING 2025-02-03 12:26:01,790 basehttp 3012 11904 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:30:57,486 basehttp 3012 8620 "GET /index/ HTTP/1.1" 200 2736
+INFO 2025-02-03 12:30:57,594 basehttp 3012 8620 "GET /static/css/styles.css HTTP/1.1" 200 2977
+INFO 2025-02-03 12:31:28,619 basehttp 3012 13204 "GET /index/ HTTP/1.1" 200 2736
+INFO 2025-02-03 12:31:33,370 basehttp 3012 13204 "GET /index/ HTTP/1.1" 200 2736
+INFO 2025-02-03 12:31:35,332 basehttp 3012 13204 "GET /user/ HTTP/1.1" 200 4368
+INFO 2025-02-03 12:31:35,395 basehttp 3012 11564 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+WARNING 2025-02-03 12:31:35,395 basehttp 3012 13204 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:32:05,230 basehttp 3012 2232 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 12:32:05,259 basehttp 3012 2232 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 12:32:05,278 basehttp 3012 17236 "GET /cooker/ HTTP/1.1" 200 2343
+WARNING 2025-02-03 12:32:05,376 basehttp 3012 17236 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:32:05,378 basehttp 3012 10232 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1672
+INFO 2025-02-03 12:32:05,379 basehttp 3012 14216 "GET /static/img/logout_icon.png HTTP/1.1" 200 6080
+INFO 2025-02-03 12:32:05,382 basehttp 3012 5296 "GET /static/css/recipe_box.css HTTP/1.1" 200 2505
+INFO 2025-02-03 12:32:12,580 basehttp 3012 17384 "GET /recipe_add/ HTTP/1.1" 200 4006
+WARNING 2025-02-03 12:32:12,669 basehttp 3012 17384 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:32:12,670 basehttp 3012 10804 "GET /static/css/recipe_form.css HTTP/1.1" 200 1704
+INFO 2025-02-03 12:32:12,724 basehttp 3012 10804 "GET /static/css/popup.css HTTP/1.1" 200 669
+INFO 2025-02-03 12:32:12,725 basehttp 3012 16100 "GET /static/img/cooker_wellknown.png HTTP/1.1" 200 43406
+INFO 2025-02-03 12:32:12,744 basehttp 3012 16100 "GET /static/js/popup.js HTTP/1.1" 200 252
+INFO 2025-02-03 12:32:12,745 basehttp 3012 10804 "GET /static/js/textFieldCounter.js HTTP/1.1" 200 1499
+INFO 2025-02-03 12:35:55,346 basehttp 3012 2148 "GET /cooker/ HTTP/1.1" 200 2643
+WARNING 2025-02-03 12:35:55,410 basehttp 3012 2148 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:35:55,410 basehttp 3012 13708 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:35:57,045 basehttp 3012 16336 "GET /cooker/ HTTP/1.1" 200 2643
+WARNING 2025-02-03 12:35:57,089 basehttp 3012 16336 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:36:14,573 basehttp 3012 5436 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 12:36:14,643 basehttp 3012 5436 "GET /static/css/styles.css HTTP/1.1" 200 1975
+INFO 2025-02-03 12:38:28,240 basehttp 3012 16568 "GET /index/ HTTP/1.1" 200 3228
+INFO 2025-02-03 12:38:28,297 basehttp 3012 13912 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:38:28,297 basehttp 3012 16568 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:38:35,839 basehttp 3012 16568 "GET /recipe_add/ HTTP/1.1" 200 4321
+WARNING 2025-02-03 12:38:35,903 basehttp 3012 16568 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:38:37,150 basehttp 3012 14444 "GET /recipe_add/ HTTP/1.1" 200 4321
+WARNING 2025-02-03 12:38:37,202 basehttp 3012 14444 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:38:42,248 basehttp 3012 16840 "GET /cooker/ HTTP/1.1" 200 2654
+WARNING 2025-02-03 12:38:42,316 basehttp 3012 16840 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 12:38:45,879 basehttp 3012 8276 "GET /index/ HTTP/1.1" 200 3228
+ERROR 2025-02-03 12:44:10,061 log 3012 7860 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 17, in wrapper
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 37, in index
+    return render(request, "recipebookapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'my_style' appears more than once
+ERROR 2025-02-03 12:44:10,091 basehttp 3012 7860 "GET /index/ HTTP/1.1" 500 190732
+ERROR 2025-02-03 12:44:50,601 log 3012 10640 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 17, in wrapper
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 37, in index
+    return render(request, "recipebookapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'my_style' appears more than once
+ERROR 2025-02-03 12:44:50,623 basehttp 3012 10640 "GET /index/ HTTP/1.1" 500 190732
+ERROR 2025-02-03 12:45:33,436 log 3012 1224 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 17, in wrapper
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 37, in index
+    return render(request, "recipebookapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'my_style' appears more than once
+ERROR 2025-02-03 12:45:33,448 basehttp 3012 1224 "GET /index/ HTTP/1.1" 500 190732
+ERROR 2025-02-03 12:45:34,797 log 3012 1224 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 17, in wrapper
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py", line 37, in index
+    return render(request, "recipebookapp/index.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\web_development_in_python\Django\project_django\venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'my_style' appears more than once
+ERROR 2025-02-03 12:45:34,809 basehttp 3012 1224 "GET /index/ HTTP/1.1" 500 190732
+INFO 2025-02-03 12:46:16,011 basehttp 3012 14072 "GET /index/ HTTP/1.1" 200 2245
+WARNING 2025-02-03 12:46:16,074 basehttp 3012 14072 "GET /static/css/custom.css HTTP/1.1" 404 1856
+INFO 2025-02-03 12:47:43,669 basehttp 3012 9116 "GET /index/ HTTP/1.1" 200 2556
+WARNING 2025-02-03 12:47:43,719 basehttp 3012 9116 "GET /static/css/custom.css HTTP/1.1" 404 1856
+INFO 2025-02-03 12:47:43,719 basehttp 3012 5380 "GET /static/img/cooker_wellknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:47:43,719 basehttp 3012 1972 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:47:43,720 basehttp 3012 1216 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 12:47:44,556 basehttp 3012 1216 "GET /index/ HTTP/1.1" 200 2556
+WARNING 2025-02-03 12:47:44,596 basehttp 3012 1216 "GET /static/css/custom.css HTTP/1.1" 404 1856
+INFO 2025-02-03 12:47:45,405 basehttp 3012 5380 "GET /index/ HTTP/1.1" 200 2556
+WARNING 2025-02-03 12:47:45,443 basehttp 3012 5380 "GET /static/css/custom.css HTTP/1.1" 404 1856
+INFO 2025-02-03 12:50:42,928 basehttp 3012 16680 "GET /index/ HTTP/1.1" 200 3228
+INFO 2025-02-03 12:50:42,982 basehttp 3012 14416 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:50:42,982 basehttp 3012 16680 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:51:24,321 basehttp 3012 6100 "GET /index/ HTTP/1.1" 200 3228
+INFO 2025-02-03 12:51:25,260 basehttp 3012 6100 "GET /index/ HTTP/1.1" 200 3228
+INFO 2025-02-03 12:52:06,986 basehttp 3012 15812 "GET /index/ HTTP/1.1" 200 3100
+INFO 2025-02-03 12:52:07,881 basehttp 3012 15812 "GET /index/ HTTP/1.1" 200 3100
+INFO 2025-02-03 12:52:30,865 basehttp 3012 15812 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 12:52:32,073 basehttp 3012 15812 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 12:53:48,719 basehttp 3012 4688 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 12:53:48,765 basehttp 3012 4688 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:53:48,766 basehttp 3012 3868 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 12:54:53,248 basehttp 3012 14148 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 12:54:54,770 basehttp 3012 14148 "GET /index/ HTTP/1.1" 200 3217
+INFO 2025-02-03 13:03:44,734 basehttp 3012 11680 "GET /index/ HTTP/1.1" 200 4670
+INFO 2025-02-03 13:03:44,795 basehttp 3012 8696 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:03:44,795 basehttp 3012 11680 "GET /static/css/styles.css HTTP/1.1" 200 2064
+INFO 2025-02-03 13:03:56,119 basehttp 3012 11680 "GET /index/ HTTP/1.1" 200 4670
+INFO 2025-02-03 13:04:01,115 basehttp 3012 14760 "GET /index/ HTTP/1.1" 200 4670
+INFO 2025-02-03 13:04:02,635 basehttp 3012 14760 "GET /cooker/ HTTP/1.1" 200 2643
+WARNING 2025-02-03 13:04:02,691 basehttp 3012 14760 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:04:02,691 basehttp 3012 15388 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:04:09,357 basehttp 3012 14232 "GET /index/ HTTP/1.1" 200 4670
+INFO 2025-02-03 13:06:54,427 basehttp 3012 15244 "GET /index/ HTTP/1.1" 200 2396
+INFO 2025-02-03 13:06:54,493 basehttp 3012 6684 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:06:54,493 basehttp 3012 17072 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:06:54,494 basehttp 3012 15116 "GET /static/img/cooker_wellknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:06:54,494 basehttp 3012 15244 "GET /static/css/styles.css HTTP/1.1" 200 2286
+INFO 2025-02-03 13:08:07,601 basehttp 3012 13560 "GET /index/ HTTP/1.1" 200 2396
+INFO 2025-02-03 13:08:07,654 basehttp 3012 4252 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:08:07,655 basehttp 3012 13560 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:08:08,891 basehttp 3012 13560 "GET /cooker/ HTTP/1.1" 200 2211
+WARNING 2025-02-03 13:08:08,966 basehttp 3012 13560 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:11:58,033 basehttp 3012 14444 "GET /index/ HTTP/1.1" 200 2396
+INFO 2025-02-03 13:11:58,093 basehttp 3012 14444 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:11:58,093 basehttp 3012 14836 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:11:59,590 basehttp 3012 14444 "GET /index/ HTTP/1.1" 200 2396
+INFO 2025-02-03 13:13:55,439 basehttp 3012 14300 "GET /index/ HTTP/1.1" 200 2396
+INFO 2025-02-03 13:13:55,480 basehttp 3012 14300 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:14:37,036 basehttp 3012 17104 "GET /index/ HTTP/1.1" 200 2985
+INFO 2025-02-03 13:15:18,254 basehttp 3012 12076 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 13:15:18,277 basehttp 3012 12076 "GET / HTTP/1.1" 200 2789
+INFO 2025-02-03 13:15:18,335 basehttp 3012 12076 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:15:18,338 basehttp 3012 13928 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:15:21,698 basehttp 3012 13928 "GET /index/ HTTP/1.1" 200 2789
+INFO 2025-02-03 13:15:26,756 basehttp 3012 13928 "GET /user/ HTTP/1.1" 200 4236
+INFO 2025-02-03 13:15:26,842 basehttp 3012 12076 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:15:26,842 basehttp 3012 5084 "GET /static/js/user.js HTTP/1.1" 304 0
+WARNING 2025-02-03 13:15:26,843 basehttp 3012 13928 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:15:32,150 basehttp 3012 5084 "GET /index/ HTTP/1.1" 200 2789
+INFO 2025-02-03 13:16:07,255 basehttp 3012 14872 "GET /index/ HTTP/1.1" 200 2923
+INFO 2025-02-03 13:16:07,304 basehttp 3012 14872 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:16:08,242 basehttp 3012 14872 "GET /index/ HTTP/1.1" 200 2923
+INFO 2025-02-03 13:16:09,622 basehttp 3012 14872 "GET /user/ HTTP/1.1" 200 4370
+WARNING 2025-02-03 13:16:09,686 basehttp 3012 14872 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:16:43,722 basehttp 3012 1176 "GET /user/ HTTP/1.1" 200 4370
+WARNING 2025-02-03 13:16:43,782 basehttp 3012 1176 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:16:46,482 basehttp 3012 9744 "GET /index/ HTTP/1.1" 200 2923
+INFO 2025-02-03 13:16:46,539 basehttp 3012 9744 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:16:49,478 basehttp 3012 9744 "GET /index/ HTTP/1.1" 200 2923
+INFO 2025-02-03 13:22:27,236 basehttp 3012 13812 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 13:22:27,306 basehttp 3012 9728 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:22:27,311 basehttp 3012 13812 "GET /static/css/styles.css HTTP/1.1" 200 3009
+INFO 2025-02-03 13:23:10,640 basehttp 3012 13812 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 13:23:10,710 basehttp 3012 13812 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:23:37,849 basehttp 3012 15884 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 13:23:37,902 basehttp 3012 15884 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:36:47,936 basehttp 3012 1432 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 13:36:47,989 basehttp 3012 9944 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:36:47,989 basehttp 3012 1432 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:36:47,990 basehttp 3012 2580 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:36:47,990 basehttp 3012 14576 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:36:50,639 basehttp 3012 14576 "GET /user/ HTTP/1.1" 200 4694
+INFO 2025-02-03 13:36:50,864 basehttp 3012 2580 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 13:36:50,864 basehttp 3012 14576 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:36:50,865 basehttp 3012 1432 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 13:37:09,753 basehttp 3012 1432 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 13:37:09,805 basehttp 3012 1432 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:37:55,295 basehttp 3012 14124 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 13:37:55,350 basehttp 3012 14124 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:37:56,679 basehttp 3012 16956 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 13:37:56,730 basehttp 3012 16956 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 13:38:23,974 log 3012 15984 Not Found: /base
+WARNING 2025-02-03 13:38:23,976 basehttp 3012 15984 "GET /base HTTP/1.1" 404 4847
+WARNING 2025-02-03 13:38:29,597 log 3012 16432 Not Found: /base.html
+WARNING 2025-02-03 13:38:29,599 basehttp 3012 16432 "GET /base.html HTTP/1.1" 404 4862
+INFO 2025-02-03 13:38:35,531 basehttp 3012 16432 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 13:38:35,584 basehttp 3012 16432 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:38:56,672 basehttp 3012 14920 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 13:39:00,833 basehttp 3012 5236 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 13:39:00,895 basehttp 3012 5236 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 13:54:11,177 basehttp 3012 6872 "GET /user/ HTTP/1.1" 200 4626
+INFO 2025-02-03 13:54:11,257 basehttp 3012 6872 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:54:11,257 basehttp 3012 6980 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:57:48,765 basehttp 3012 14700 "GET /user/ HTTP/1.1" 200 5256
+INFO 2025-02-03 13:57:48,821 basehttp 3012 14700 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:59:22,944 basehttp 3012 16944 "GET /user/ HTTP/1.1" 200 4694
+INFO 2025-02-03 13:59:23,016 basehttp 3012 16860 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 13:59:23,026 basehttp 3012 6792 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 13:59:23,026 basehttp 3012 6744 "GET /static/js/user.js HTTP/1.1" 304 0
+WARNING 2025-02-03 13:59:23,028 basehttp 3012 16944 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:09:34,632 basehttp 3012 16552 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:09:34,736 basehttp 3012 16552 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:12:14,204 basehttp 3012 14380 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:12:14,275 basehttp 3012 14380 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:12:16,728 basehttp 3012 16624 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:12:16,779 basehttp 3012 16624 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:12:50,775 basehttp 3012 14908 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:12:50,854 basehttp 3012 14908 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:12:50,862 basehttp 3012 1776 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:12:50,863 basehttp 3012 12736 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 14:13:05,031 basehttp 3012 1728 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:15:48,302 basehttp 3012 14784 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:15:48,373 basehttp 3012 14784 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:16:23,141 basehttp 3012 16588 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:16:23,199 basehttp 3012 16588 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:16:25,573 basehttp 3012 10072 "GET /user/ HTTP/1.1" 200 4852
+WARNING 2025-02-03 14:16:25,629 basehttp 3012 10072 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:16:51,966 basehttp 3012 17196 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:17:51,960 basehttp 3012 10252 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:20:32,278 basehttp 3012 14204 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:20:32,343 basehttp 3012 14204 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:20:34,074 basehttp 3012 3080 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:23:30,860 basehttp 3012 16572 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 14:23:30,899 basehttp 3012 16572 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 14:23:30,927 basehttp 3012 2360 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 14:23:31,015 basehttp 3012 2360 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:23:31,016 basehttp 3012 13676 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:23:31,016 basehttp 3012 17332 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:23:31,018 basehttp 3012 2580 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 14:23:31,019 basehttp 3012 3792 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 14:23:38,853 basehttp 3012 652 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 14:23:38,872 basehttp 3012 652 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 14:23:40,930 basehttp 3012 652 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:23:40,999 basehttp 3012 652 "GET /static/css/user.css HTTP/1.1" 200 2538
+INFO 2025-02-03 14:23:41,027 basehttp 3012 4724 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 14:23:45,209 basehttp 3012 14824 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:23:48,855 basehttp 3012 14824 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:23:56,780 basehttp 3012 17236 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 14:23:58,505 basehttp 3012 17236 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 14:24:00,022 basehttp 3012 17236 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:28:56,140 basehttp 3012 14144 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:28:56,220 basehttp 3012 14144 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:28:56,222 basehttp 3012 16188 "GET /static/css/user.css HTTP/1.1" 200 3693
+INFO 2025-02-03 14:29:01,452 basehttp 3012 348 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:29:04,645 basehttp 3012 348 "GET /user/ HTTP/1.1" 200 5193
+INFO 2025-02-03 14:29:04,707 basehttp 3012 348 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:29:50,476 basehttp 3012 13912 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:29:51,787 basehttp 3012 13912 "GET /user/ HTTP/1.1" 200 4694
+INFO 2025-02-03 14:29:51,867 basehttp 3012 14008 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:29:51,868 basehttp 3012 13912 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:29:53,766 basehttp 3012 14008 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:29:53,828 basehttp 3012 14008 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:30:16,391 basehttp 3012 14852 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:30:16,451 basehttp 3012 14852 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:30:16,451 basehttp 3012 5256 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:30:21,838 basehttp 3012 15160 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:30:23,268 basehttp 3012 15160 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:30:23,331 basehttp 3012 15160 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:30:25,565 basehttp 3012 4460 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:30:27,035 basehttp 3012 4460 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:30:27,097 basehttp 3012 4460 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:31:04,860 basehttp 3012 12508 "GET /user/ HTTP/1.1" 200 5058
+INFO 2025-02-03 14:31:04,925 basehttp 3012 13284 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:31:04,926 basehttp 3012 12508 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:32:29,843 basehttp 3012 3148 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:32:29,906 basehttp 3012 3148 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:32:29,906 basehttp 3012 5632 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:33:01,741 basehttp 3012 15512 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:33:01,802 basehttp 3012 15512 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:33:01,802 basehttp 3012 8708 "GET /static/css/user.css HTTP/1.1" 200 3864
+INFO 2025-02-03 14:35:59,659 basehttp 3012 13072 "GET /user/ HTTP/1.1" 200 5589
+INFO 2025-02-03 14:35:59,720 basehttp 3012 15496 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:35:59,720 basehttp 3012 13072 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:36:09,922 basehttp 3012 1876 "GET /user/ HTTP/1.1" 200 5589
+INFO 2025-02-03 14:36:12,813 basehttp 3012 1876 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:36:12,860 basehttp 3012 1876 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:36:14,872 basehttp 3012 1876 "GET /user/ HTTP/1.1" 200 5589
+INFO 2025-02-03 14:37:56,995 basehttp 3012 13780 "GET /user/ HTTP/1.1" 200 4505
+INFO 2025-02-03 14:37:57,052 basehttp 3012 13780 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:38:05,060 basehttp 3012 296 "GET /user/ HTTP/1.1" 200 4505
+INFO 2025-02-03 14:38:05,128 basehttp 3012 296 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 14:38:06,635 basehttp 3012 296 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:38:07,940 basehttp 3012 17356 "GET /user/ HTTP/1.1" 200 4505
+INFO 2025-02-03 14:41:21,290 basehttp 3012 16744 "GET /user/ HTTP/1.1" 200 4505
+INFO 2025-02-03 14:41:21,348 basehttp 3012 16744 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:41:50,257 basehttp 3012 14884 "GET /user/ HTTP/1.1" 200 4505
+INFO 2025-02-03 14:42:14,716 basehttp 3012 14072 "GET /user/ HTTP/1.1" 200 4694
+INFO 2025-02-03 14:42:14,773 basehttp 3012 15328 "GET /static/css/user.css HTTP/1.1" 200 3864
+WARNING 2025-02-03 14:42:14,773 basehttp 3012 14072 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:43:03,835 basehttp 3012 8504 "GET /user/ HTTP/1.1" 200 4613
+INFO 2025-02-03 14:43:03,888 basehttp 3012 8504 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:44:09,610 basehttp 3012 12924 "GET /user/ HTTP/1.1" 200 4694
+WARNING 2025-02-03 14:44:09,673 basehttp 3012 12924 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:44:09,674 basehttp 3012 17360 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:48:31,158 basehttp 3012 13952 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:48:31,219 basehttp 3012 13952 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:48:31,219 basehttp 3012 14292 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:48:33,021 basehttp 3012 17320 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:48:33,081 basehttp 3012 17320 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:51:22,937 basehttp 3012 7436 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:51:22,997 basehttp 3012 7436 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:51:23,000 basehttp 3012 14980 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 14:51:23,001 basehttp 3012 13912 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 14:51:23,002 basehttp 3012 5632 "GET /static/css/user.css HTTP/1.1" 200 4667
+INFO 2025-02-03 14:51:33,959 basehttp 3012 16840 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:51:34,015 basehttp 3012 16840 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:51:34,022 basehttp 3012 10604 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:52:16,772 basehttp 3012 16640 "GET /user/ HTTP/1.1" 200 5666
+INFO 2025-02-03 14:52:17,022 basehttp 3012 9268 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:52:17,023 basehttp 3012 16640 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:53:16,234 basehttp 3012 16724 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:53:47,869 basehttp 3012 16904 "GET /user/ HTTP/1.1" 200 5666
+INFO 2025-02-03 14:53:47,963 basehttp 3012 16672 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:53:47,966 basehttp 3012 17248 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:55:25,364 basehttp 3012 8760 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:55:25,434 basehttp 3012 8760 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:55:25,443 basehttp 3012 16824 "GET /static/css/user.css HTTP/1.1" 200 4822
+INFO 2025-02-03 14:55:35,770 basehttp 3012 4112 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:56:17,367 basehttp 3012 15876 "GET /user/ HTTP/1.1" 200 5666
+INFO 2025-02-03 14:56:17,459 basehttp 3012 12896 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:56:17,459 basehttp 3012 15876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:56:22,053 basehttp 3012 16812 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:56:22,110 basehttp 3012 16812 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:56:30,023 basehttp 3012 8468 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:56:30,084 basehttp 3012 8468 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:56:30,091 basehttp 3012 13032 "GET /static/css/user.css HTTP/1.1" 200 4669
+INFO 2025-02-03 14:57:12,402 basehttp 3012 3000 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:57:12,467 basehttp 3012 3000 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:57:12,495 basehttp 3012 7276 "GET /static/css/user.css HTTP/1.1" 200 4970
+INFO 2025-02-03 14:57:35,858 basehttp 3012 16944 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:57:45,117 basehttp 3012 17328 "GET /user/ HTTP/1.1" 200 5666
+WARNING 2025-02-03 14:57:45,217 basehttp 3012 17328 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:57:45,218 basehttp 3012 16620 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 14:57:48,504 basehttp 3012 13552 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:58:01,791 basehttp 3012 12988 "GET /user/ HTTP/1.1" 200 5666
+INFO 2025-02-03 14:58:01,864 basehttp 3012 4892 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:58:01,865 basehttp 3012 12988 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:58:38,020 basehttp 3012 10184 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 14:59:24,636 basehttp 3012 9484 "GET /user/ HTTP/1.1" 200 5719
+INFO 2025-02-03 14:59:24,735 basehttp 3012 16972 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 14:59:24,740 basehttp 3012 9484 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 14:59:33,709 basehttp 3012 11344 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 15:00:43,331 basehttp 3012 9492 "GET /user/ HTTP/1.1" 200 5719
+WARNING 2025-02-03 15:00:43,477 basehttp 3012 9492 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:00:43,481 basehttp 3012 13260 "GET /static/css/user.css HTTP/1.1" 200 5080
+WARNING 2025-02-03 15:01:21,970 basehttp 3012 14220 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:01:21,970 basehttp 3012 5924 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:04:50,477 basehttp 3012 16784 "GET /user/ HTTP/1.1" 200 5719
+WARNING 2025-02-03 15:04:50,546 basehttp 3012 16784 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:04:50,553 basehttp 3012 16696 "GET /static/css/user.css HTTP/1.1" 200 5101
+INFO 2025-02-03 15:05:02,696 basehttp 3012 17164 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:05:02,696 basehttp 3012 9116 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:05:55,723 basehttp 3012 652 "GET /user/ HTTP/1.1" 200 5719
+WARNING 2025-02-03 15:05:55,790 basehttp 3012 652 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:05:55,790 basehttp 3012 3780 "GET /static/css/user.css HTTP/1.1" 200 5018
+INFO 2025-02-03 15:06:30,671 basehttp 3012 9332 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 15:06:30,710 basehttp 3012 9332 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 15:06:30,736 basehttp 3012 13424 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:06:30,836 basehttp 3012 13424 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:06:30,837 basehttp 3012 8624 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:30,837 basehttp 3012 2304 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:30,837 basehttp 3012 14732 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:35,911 basehttp 3012 14732 "GET /index/ HTTP/1.1" 200 3243
+INFO 2025-02-03 15:06:35,973 basehttp 3012 14732 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:36,006 basehttp 3012 14732 "GET /static/img/cooker_wellknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:42,696 basehttp 3012 9264 "GET /recipe_add/ HTTP/1.1" 200 4336
+WARNING 2025-02-03 15:06:42,777 basehttp 3012 9264 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:06:42,778 basehttp 3012 16224 "GET /static/css/popup.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:42,779 basehttp 3012 14920 "GET /static/css/recipe_form.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:42,788 basehttp 3012 8764 "GET /static/js/textFieldCounter.js HTTP/1.1" 304 0
+INFO 2025-02-03 15:06:42,790 basehttp 3012 16100 "GET /static/js/popup.js HTTP/1.1" 304 0
+INFO 2025-02-03 15:07:22,743 basehttp 3012 12980 "GET /recipe_add/ HTTP/1.1" 200 4336
+WARNING 2025-02-03 15:07:22,830 basehttp 3012 12980 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 15:07:24,426 basehttp 3012 5096 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:07:26,414 basehttp 3012 16676 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:07:26,463 basehttp 3012 16676 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 15:07:52,710 basehttp 3012 15512 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:08:57,488 basehttp 3012 9884 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:08:57,533 basehttp 3012 9884 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:09:13,229 basehttp 3012 7416 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:09:13,271 basehttp 3012 7416 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:09:27,989 basehttp 3012 15324 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:09:28,033 basehttp 3012 15324 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:09:46,559 basehttp 3012 6624 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:09:46,608 basehttp 3012 6624 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:10:26,358 basehttp 3012 10948 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:10:26,408 basehttp 3012 10948 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:10:38,191 basehttp 3012 17000 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:10:38,249 basehttp 3012 17000 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:11:03,257 basehttp 3012 14928 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:11:03,339 basehttp 3012 14928 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:11:19,896 basehttp 3012 16928 "GET /user/ HTTP/1.1" 200 5719
+WARNING 2025-02-03 15:11:19,982 basehttp 3012 16928 "GET /static/css/style.css HTTP/1.1" 404 1853
+WARNING 2025-02-03 15:11:23,251 basehttp 3012 16760 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:11:52,899 basehttp 3012 16876 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:11:52,951 basehttp 3012 16876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:12:09,106 basehttp 3012 16876 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:12:09,158 basehttp 3012 16876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:13:10,480 basehttp 3012 13848 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:13:10,524 basehttp 3012 13848 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:13:12,786 basehttp 3012 16552 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:13:12,836 basehttp 3012 16552 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:13:54,345 basehttp 3012 16928 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:13:54,412 basehttp 3012 16928 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:25:29,454 basehttp 3012 10804 "GET /cooker/ HTTP/1.1" 200 2669
+INFO 2025-02-03 15:25:29,540 basehttp 3012 14200 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:25:29,540 basehttp 3012 14460 "GET /static/css/recipe_box.css HTTP/1.1" 200 2509
+WARNING 2025-02-03 15:25:29,541 basehttp 3012 10804 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:25:47,151 basehttp 3012 3272 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:25:47,202 basehttp 3012 3272 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:26:07,509 basehttp 3012 6388 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:26:07,560 basehttp 3012 6388 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:26:26,419 basehttp 3012 4736 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:26:26,470 basehttp 3012 4736 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:26:54,271 basehttp 3012 10252 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:26:54,331 basehttp 3012 10252 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:26:54,332 basehttp 3012 4244 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:29:21,074 basehttp 3012 14328 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:29:21,148 basehttp 3012 14328 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:29:21,152 basehttp 3012 14012 "GET /static/css/recipe_box.css HTTP/1.1" 200 2510
+INFO 2025-02-03 15:30:03,287 basehttp 3012 10856 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:30:03,340 basehttp 3012 10856 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:30:03,341 basehttp 3012 14740 "GET /static/css/recipe_box.css HTTP/1.1" 200 2510
+INFO 2025-02-03 15:31:07,977 basehttp 3012 16152 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:31:08,033 basehttp 3012 16152 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:31:08,034 basehttp 3012 16800 "GET /static/css/recipe_box.css HTTP/1.1" 200 2509
+INFO 2025-02-03 15:31:19,444 basehttp 3012 13828 "GET /cooker/ HTTP/1.1" 200 2669
+INFO 2025-02-03 15:31:19,496 basehttp 3012 16784 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:31:19,497 basehttp 3012 13828 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:31:27,655 basehttp 3012 16784 "GET /cooker/ HTTP/1.1" 200 2669
+INFO 2025-02-03 15:31:27,705 basehttp 3012 11600 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:31:27,706 basehttp 3012 16784 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:32:19,343 basehttp 3012 17136 "GET /cooker/ HTTP/1.1" 200 2669
+WARNING 2025-02-03 15:32:19,387 basehttp 3012 17136 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:32:19,388 basehttp 3012 11056 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:39:40,800 basehttp 3012 13280 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:39:40,864 basehttp 3012 1776 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:39:40,865 basehttp 3012 13280 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:39:40,867 basehttp 3012 15560 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:39:40,869 basehttp 3012 13548 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1676
+INFO 2025-02-03 15:41:29,059 basehttp 3012 13196 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:41:29,104 basehttp 3012 13196 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:41:29,106 basehttp 3012 15096 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:29,106 basehttp 3012 14732 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:31,248 basehttp 3012 15096 "GET /index/ HTTP/1.1" 200 3243
+INFO 2025-02-03 15:41:31,328 basehttp 3012 15096 "GET /static/css/styles.css HTTP/1.1" 200 3243
+INFO 2025-02-03 15:41:31,332 basehttp 3012 14732 "GET /static/img/cooker_wellknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:38,388 basehttp 3012 10460 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:41:38,448 basehttp 3012 10460 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:41:42,145 basehttp 3012 7276 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 15:41:42,164 basehttp 3012 7276 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 15:41:42,229 basehttp 3012 7276 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:42,234 basehttp 3012 16748 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:43,884 basehttp 3012 17304 "GET /user/ HTTP/1.1" 200 5719
+WARNING 2025-02-03 15:41:43,958 basehttp 3012 17304 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:41:43,960 basehttp 3012 10452 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:41:43,961 basehttp 3012 15352 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 15:42:01,955 basehttp 3012 15352 "POST /user/ HTTP/1.1" 200 6051
+WARNING 2025-02-03 15:42:02,017 basehttp 3012 15352 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:42:21,684 basehttp 3012 10452 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 15:42:21,711 basehttp 3012 10452 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 15:42:21,731 basehttp 3012 9268 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:42:21,796 basehttp 3012 9268 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:44:46,982 basehttp 3012 16836 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:44:47,035 basehttp 3012 14076 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:44:47,036 basehttp 3012 16836 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:44:47,036 basehttp 3012 14868 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:44:48,539 basehttp 3012 14868 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:44:48,584 basehttp 3012 14868 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:44:49,708 basehttp 3012 14076 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:44:49,752 basehttp 3012 14076 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:45:43,680 basehttp 3012 16516 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 15:45:43,700 basehttp 3012 16516 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 15:45:43,783 basehttp 3012 16516 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:45:45,464 basehttp 3012 16516 "GET /user/ HTTP/1.1" 200 5719
+INFO 2025-02-03 15:45:45,541 basehttp 3012 14008 "GET /static/css/user.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:45:45,541 basehttp 3012 16516 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:46:02,993 basehttp 3012 12528 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 15:46:03,015 basehttp 3012 12528 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 15:46:03,030 basehttp 3012 16704 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:46:03,098 basehttp 3012 16704 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:46:16,994 basehttp 3012 15344 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:46:16,994 basehttp 3012 6804 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:46:16,995 basehttp 3012 11056 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:49:46,470 basehttp 3012 17064 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:49:46,527 basehttp 3012 10948 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:49:46,528 basehttp 3012 17064 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:49:46,532 basehttp 3012 11976 "GET /static/css/recipe_box.css HTTP/1.1" 200 2772
+INFO 2025-02-03 15:50:11,586 basehttp 3012 16020 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:50:11,635 basehttp 3012 16476 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:50:11,635 basehttp 3012 16020 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:50:30,352 basehttp 3012 6052 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:50:30,400 basehttp 3012 6052 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:50:30,404 basehttp 3012 10352 "GET /static/css/recipe_box.css HTTP/1.1" 200 2772
+INFO 2025-02-03 15:50:49,776 basehttp 3012 10880 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:50:49,824 basehttp 3012 10880 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:50:49,830 basehttp 3012 4160 "GET /static/css/recipe_box.css HTTP/1.1" 200 2772
+INFO 2025-02-03 15:50:59,423 basehttp 3012 12688 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:50:59,470 basehttp 3012 12688 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:50:59,471 basehttp 3012 636 "GET /static/css/recipe_box.css HTTP/1.1" 200 2772
+INFO 2025-02-03 15:51:00,491 basehttp 3012 636 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:51:00,537 basehttp 3012 636 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:51:00,540 basehttp 3012 3792 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:51:07,464 basehttp 3012 13228 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:51:07,509 basehttp 3012 13228 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:51:07,514 basehttp 3012 16940 "GET /static/css/recipe_box.css HTTP/1.1" 200 2770
+INFO 2025-02-03 15:51:15,588 basehttp 3012 11544 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:51:15,633 basehttp 3012 11544 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:51:15,638 basehttp 3012 4428 "GET /static/css/recipe_box.css HTTP/1.1" 200 2666
+WARNING 2025-02-03 15:51:37,218 basehttp 3012 14376 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:51:37,218 basehttp 3012 7448 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:51:37,219 basehttp 3012 16956 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:52:19,998 basehttp 3012 6876 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:52:20,052 basehttp 3012 6876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:52:20,057 basehttp 3012 9408 "GET /static/css/recipe_box.css HTTP/1.1" 200 2812
+INFO 2025-02-03 15:52:41,848 basehttp 3012 15612 "GET /index/ HTTP/1.1" 200 3243
+INFO 2025-02-03 15:52:41,902 basehttp 3012 6820 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:52:41,902 basehttp 3012 15612 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:52:45,355 basehttp 3012 6820 "GET /static/css/recipe_box.css HTTP/1.1" 200 2812
+INFO 2025-02-03 15:52:45,357 basehttp 3012 15612 "GET /static/css/styles.css HTTP/1.1" 200 3243
+INFO 2025-02-03 15:55:24,417 basehttp 3012 8840 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:55:24,493 basehttp 3012 9572 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:55:24,493 basehttp 3012 2304 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:55:24,494 basehttp 3012 8840 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:56:01,163 basehttp 3012 12600 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:56:01,223 basehttp 3012 12600 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:56:01,223 basehttp 3012 6876 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:56:03,468 basehttp 3012 6876 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:56:03,517 basehttp 3012 6876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:56:05,173 basehttp 3012 16824 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:56:05,219 basehttp 3012 16824 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:57:02,561 basehttp 3012 8384 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 15:57:02,624 basehttp 3012 12692 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 15:57:02,624 basehttp 3012 8384 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:59:05,671 basehttp 3012 13064 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:59:05,736 basehttp 3012 13064 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:59:05,738 basehttp 3012 12664 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:59:05,740 basehttp 3012 3572 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 15:59:05,741 basehttp 3012 16804 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 15:59:44,184 basehttp 3012 14260 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:59:44,233 basehttp 3012 14260 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 15:59:45,616 basehttp 3012 13228 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 15:59:45,662 basehttp 3012 13228 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:00:07,927 basehttp 3012 11140 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 16:00:07,979 basehttp 3012 11140 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:00:07,984 basehttp 3012 9956 "GET /static/css/recipe_box.css HTTP/1.1" 200 0
+INFO 2025-02-03 16:00:12,940 basehttp 3012 10376 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 16:00:12,984 basehttp 3012 10376 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:00:12,996 basehttp 3012 14556 "GET /static/css/recipe_box.css HTTP/1.1" 200 2812
+INFO 2025-02-03 16:00:21,403 basehttp 3012 17228 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 16:00:21,448 basehttp 3012 13836 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 16:00:21,449 basehttp 3012 17228 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:00:32,475 basehttp 3012 2400 "GET /cooker/ HTTP/1.1" 200 2763
+WARNING 2025-02-03 16:00:32,516 basehttp 3012 2400 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:00:32,517 basehttp 3012 17228 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:00:46,673 basehttp 3012 1484 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 16:00:46,716 basehttp 3012 13968 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 16:00:46,716 basehttp 3012 1484 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:02:38,062 basehttp 3012 4516 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 16:02:38,128 basehttp 3012 10596 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 16:02:38,128 basehttp 3012 4516 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:02:38,130 basehttp 3012 12988 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1676
+INFO 2025-02-03 16:02:51,847 basehttp 3012 14728 "GET /cooker/ HTTP/1.1" 200 2763
+INFO 2025-02-03 16:02:51,911 basehttp 3012 5868 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+WARNING 2025-02-03 16:02:51,912 basehttp 3012 14728 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:03:09,209 basehttp 3012 17168 "GET /cooker/ HTTP/1.1" 200 2592
+INFO 2025-02-03 16:05:06,136 basehttp 3012 10604 "GET /cooker/ HTTP/1.1" 200 2703
+INFO 2025-02-03 16:05:06,204 basehttp 3012 8884 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+WARNING 2025-02-03 16:05:06,205 basehttp 3012 10604 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:05:06,206 basehttp 3012 15828 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:06:16,297 basehttp 3012 14456 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 16:06:16,358 basehttp 3012 17312 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:06:16,358 basehttp 3012 17244 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:06:16,361 basehttp 3012 14456 "GET /static/css/styles.css HTTP/1.1" 200 3249
+INFO 2025-02-03 16:14:38,115 basehttp 3012 14288 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 16:14:38,285 basehttp 3012 14288 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:14:38,286 basehttp 3012 8984 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:14:38,290 basehttp 3012 4160 "GET /static/img/logout_icon.png HTTP/1.1" 304 0
+INFO 2025-02-03 16:14:38,296 basehttp 3012 8776 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1722
+INFO 2025-02-03 16:24:08,178 basehttp 3012 13876 "GET /recipe_add/ HTTP/1.1" 200 4336
+INFO 2025-02-03 16:24:08,333 basehttp 3012 13884 "GET /static/js/textFieldCounter.js HTTP/1.1" 304 0
+INFO 2025-02-03 16:24:08,333 basehttp 3012 10896 "GET /static/img/cooker_wellknown.png HTTP/1.1" 304 0
+WARNING 2025-02-03 16:24:08,334 basehttp 3012 13876 "GET /static/css/style.css HTTP/1.1" 404 1853
+INFO 2025-02-03 16:24:08,334 basehttp 3012 3284 "GET /static/css/popup.css HTTP/1.1" 200 675
+INFO 2025-02-03 16:24:08,337 basehttp 3012 6096 "GET /static/css/recipe_form.css HTTP/1.1" 200 1708
+INFO 2025-02-03 16:24:08,338 basehttp 3012 3780 "GET /static/js/popup.js HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:12,869 autoreload 3012 15104 C:\GB\web_development_in_python\Django\project_django\recipebookapp\forms.py changed, reloading.
+INFO 2025-02-03 16:33:16,099 autoreload 14568 11396 Watching for file changes with StatReloader
+INFO 2025-02-03 16:33:18,989 basehttp 14568 16504 "GET /recipe_add/ HTTP/1.1" 200 4338
+INFO 2025-02-03 16:33:19,118 basehttp 14568 16504 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:19,118 basehttp 14568 3952 "GET /static/css/recipe_form.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:19,119 basehttp 14568 4468 "GET /static/css/popup.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:30,668 basehttp 14568 13772 "GET /recipe_add/ HTTP/1.1" 200 4338
+INFO 2025-02-03 16:33:33,546 basehttp 14568 13772 "GET /index/ HTTP/1.1" 200 3243
+INFO 2025-02-03 16:33:33,610 basehttp 14568 13772 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:48,682 basehttp 14568 13396 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 16:33:48,698 basehttp 14568 13396 "GET / HTTP/1.1" 200 3062
+INFO 2025-02-03 16:33:48,762 basehttp 14568 13396 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:53,152 basehttp 14568 13396 "GET /index/ HTTP/1.1" 200 3062
+INFO 2025-02-03 16:33:55,842 basehttp 14568 14380 "GET /user/ HTTP/1.1" 200 5720
+INFO 2025-02-03 16:33:55,917 basehttp 14568 8536 "GET /static/js/user.js HTTP/1.1" 304 0
+INFO 2025-02-03 16:33:55,958 basehttp 14568 14380 "GET /static/css/user.css HTTP/1.1" 200 5024
+INFO 2025-02-03 16:34:45,353 basehttp 14568 14156 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 16:34:45,385 basehttp 14568 14156 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 16:34:45,405 basehttp 14568 1292 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 16:34:45,470 basehttp 14568 1292 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:34:50,971 basehttp 14568 1292 "GET /recipe_add/ HTTP/1.1" 200 4338
+INFO 2025-02-03 16:36:07,974 basehttp 14568 13760 "POST /recipe_add/ HTTP/1.1" 200 5765
+INFO 2025-02-03 16:36:08,074 basehttp 14568 13760 "GET /static/img/cookbook.png HTTP/1.1" 304 0
+INFO 2025-02-03 16:36:09,879 basehttp 14568 13760 "GET /cooker/ HTTP/1.1" 200 4012
+INFO 2025-02-03 16:36:09,953 basehttp 14568 13760 "GET /media/recipes/big_559778.jpg HTTP/1.1" 200 65490
+INFO 2025-02-03 16:36:18,831 basehttp 14568 15548 "GET /index/ HTTP/1.1" 200 4647
+INFO 2025-02-03 16:36:18,952 basehttp 14568 15548 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 16:36:44,830 basehttp 14568 10684 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:37:34,462 basehttp 14568 10992 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-03 16:37:34,482 basehttp 14568 10992 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 16:37:34,550 basehttp 14568 1472 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:37:34,550 basehttp 14568 8728 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 16:37:34,550 basehttp 14568 10992 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:37:36,365 basehttp 14568 10992 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 16:37:38,048 basehttp 14568 10992 "GET /index/ HTTP/1.1" 200 4466
+INFO 2025-02-03 16:38:32,698 basehttp 14568 8492 "GET /index/ HTTP/1.1" 200 4466
+INFO 2025-02-03 16:38:32,738 basehttp 14568 8492 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 16:40:50,068 basehttp 14568 15912 "GET /index/ HTTP/1.1" 200 4466
+INFO 2025-02-03 16:40:50,132 basehttp 14568 15912 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 16:40:53,449 basehttp 14568 15912 "GET /user/ HTTP/1.1" 200 5720
+INFO 2025-02-03 16:40:53,512 basehttp 14568 15912 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:41:24,975 basehttp 14568 11528 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 16:41:25,012 basehttp 14568 11528 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 16:41:25,029 basehttp 14568 17052 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 16:41:25,087 basehttp 14568 17052 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:41:25,099 basehttp 14568 14888 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:41:25,099 basehttp 14568 16828 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:41:30,082 basehttp 14568 16828 "GET /recipe_add/ HTTP/1.1" 200 4338
+INFO 2025-02-03 16:41:30,151 basehttp 14568 16828 "GET /static/css/popup.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:42:36,867 autoreload 14568 11396 C:\GB\web_development_in_python\Django\project_django\recipebookapp\forms.py changed, reloading.
+INFO 2025-02-03 16:42:38,220 autoreload 7280 12984 Watching for file changes with StatReloader
+INFO 2025-02-03 16:42:42,927 basehttp 7280 13068 "GET /recipe_add/ HTTP/1.1" 200 4317
+INFO 2025-02-03 16:42:42,991 basehttp 7280 13068 "GET /static/css/recipe_form.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:42:57,824 autoreload 7280 12984 C:\GB\web_development_in_python\Django\project_django\recipebookapp\forms.py changed, reloading.
+INFO 2025-02-03 16:42:58,653 autoreload 11540 13812 Watching for file changes with StatReloader
+WARNING 2025-02-03 16:48:25,642 log 11540 8776 Not Found: /recipe_detail/
+WARNING 2025-02-03 16:48:25,646 basehttp 11540 8776 "GET /recipe_detail/ HTTP/1.1" 404 4877
+INFO 2025-02-03 16:49:17,182 basehttp 11540 4816 "GET /recipe_add/ HTTP/1.1" 200 4338
+INFO 2025-02-03 16:49:17,249 basehttp 11540 4816 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:49:17,249 basehttp 11540 5160 "GET /static/css/popup.css HTTP/1.1" 304 0
+INFO 2025-02-03 16:50:28,388 basehttp 11540 7416 "GET /recipe_add/ HTTP/1.1" 200 4391
