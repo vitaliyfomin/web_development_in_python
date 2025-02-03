@@ -8,7 +8,7 @@ class RecipeForm(forms.ModelForm):
     title = forms.CharField(max_length=100,
                             label="Наименование блюда",
                             widget=forms.TextInput(attrs={'class': 'recipe-form__title'}))
-    description = forms.CharField(max_length=2500,
+    description = forms.CharField(max_length=250,
                                   label="Описание блюда",
                                   widget=forms.Textarea(attrs={'class': 'recipe-form__description'}))
     cooking_steps = forms.CharField(max_length=10000,

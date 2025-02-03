@@ -987,3 +987,118 @@ INFO 2025-02-03 16:49:17,182 basehttp 11540 4816 "GET /recipe_add/ HTTP/1.1" 200
 INFO 2025-02-03 16:49:17,249 basehttp 11540 4816 "GET /static/css/styles.css HTTP/1.1" 304 0
 INFO 2025-02-03 16:49:17,249 basehttp 11540 5160 "GET /static/css/popup.css HTTP/1.1" 304 0
 INFO 2025-02-03 16:50:28,388 basehttp 11540 7416 "GET /recipe_add/ HTTP/1.1" 200 4391
+INFO 2025-02-03 20:49:31,098 autoreload 2916 4256 Watching for file changes with StatReloader
+INFO 2025-02-03 20:49:42,777 basehttp 2916 10332 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 20:49:44,051 basehttp 2916 1404 "GET /static/css/recipe_box.css HTTP/1.1" 200 2812
+INFO 2025-02-03 20:49:44,062 basehttp 2916 10332 "GET /static/css/styles.css HTTP/1.1" 200 3249
+INFO 2025-02-03 20:49:44,088 basehttp 2916 9696 "GET /static/img/cooker_unknown.png HTTP/1.1" 200 28595
+INFO 2025-02-03 20:49:44,091 basehttp 2916 8776 "GET /static/img/cookbook.png HTTP/1.1" 200 52224
+INFO 2025-02-03 20:49:44,102 basehttp 2916 6104 "GET /media/recipes/big_559778.jpg HTTP/1.1" 200 65490
+WARNING 2025-02-03 20:49:44,440 log 2916 6104 Not Found: /favicon.ico
+WARNING 2025-02-03 20:49:44,444 basehttp 2916 6104 "GET /favicon.ico HTTP/1.1" 404 4868
+INFO 2025-02-03 20:53:07,776 basehttp 2916 6104 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 20:53:07,893 basehttp 2916 6104 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 20:53:07,894 basehttp 2916 8776 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 20:53:08,013 basehttp 2916 8776 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 20:54:18,198 basehttp 2916 8776 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 20:55:46,902 basehttp 2916 8776 "GET / HTTP/1.1" 200 4467
+INFO 2025-02-03 20:57:02,717 basehttp 2916 8776 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 20:57:02,822 basehttp 2916 6104 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 20:57:02,823 basehttp 2916 8776 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 20:57:02,926 basehttp 2916 8776 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:04:46,456 basehttp 2916 12592 "GET / HTTP/1.1" 200 4518
+INFO 2025-02-03 21:04:46,921 basehttp 2916 15048 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:04:46,921 basehttp 2916 12592 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:04:46,942 basehttp 2916 15048 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:17:20,710 basehttp 2916 5216 "GET / HTTP/1.1" 200 5044
+INFO 2025-02-03 21:17:21,183 basehttp 2916 10776 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:17:21,184 basehttp 2916 5216 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:17:21,191 basehttp 2916 5104 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:18:11,341 basehttp 2916 5104 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 21:20:22,874 autoreload 2916 4256 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:20:24,293 autoreload 8752 1720 Watching for file changes with StatReloader
+INFO 2025-02-03 21:20:47,823 basehttp 8752 13868 "GET / HTTP/1.1" 200 2848
+INFO 2025-02-03 21:20:48,100 basehttp 8752 13868 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1722
+INFO 2025-02-03 21:20:48,188 basehttp 8752 4124 "GET /static/img/default_recipe_img.jpg HTTP/1.1" 200 548231
+INFO 2025-02-03 21:21:05,050 autoreload 8752 1720 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:21:06,303 autoreload 13160 6448 Watching for file changes with StatReloader
+INFO 2025-02-03 21:21:10,587 basehttp 13160 10208 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 21:26:35,924 autoreload 13160 6448 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:26:36,561 autoreload 2016 4888 Watching for file changes with StatReloader
+INFO 2025-02-03 21:26:49,353 basehttp 2016 2836 "GET / HTTP/1.1" 200 4466
+INFO 2025-02-03 21:26:49,806 basehttp 2016 14840 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:26:49,807 basehttp 2016 2836 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:26:49,814 basehttp 2016 13016 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:27:02,934 basehttp 2016 13016 "GET /user/ HTTP/1.1" 200 5720
+INFO 2025-02-03 21:27:03,113 basehttp 2016 13016 "GET /static/css/user.css HTTP/1.1" 200 5024
+INFO 2025-02-03 21:27:03,116 basehttp 2016 2836 "GET /static/js/user.js HTTP/1.1" 200 656
+INFO 2025-02-03 21:27:33,759 basehttp 2016 2836 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-03 21:27:33,777 basehttp 2016 2836 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-03 21:27:33,795 basehttp 2016 13016 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 21:27:33,981 basehttp 2016 13016 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:27:33,985 basehttp 2016 14840 "GET /static/img/logout_icon.png HTTP/1.1" 200 6080
+INFO 2025-02-03 21:27:42,811 basehttp 2016 14840 "GET /recipe_add/ HTTP/1.1" 200 4391
+INFO 2025-02-03 21:27:42,919 basehttp 2016 14840 "GET /static/css/recipe_form.css HTTP/1.1" 200 1708
+INFO 2025-02-03 21:27:42,925 basehttp 2016 13016 "GET /static/css/popup.css HTTP/1.1" 200 675
+INFO 2025-02-03 21:27:42,927 basehttp 2016 12276 "GET /static/js/textFieldCounter.js HTTP/1.1" 200 1499
+INFO 2025-02-03 21:27:42,931 basehttp 2016 11736 "GET /static/img/cooker_wellknown.png HTTP/1.1" 200 43406
+INFO 2025-02-03 21:27:42,942 basehttp 2016 10568 "GET /static/js/popup.js HTTP/1.1" 200 252
+INFO 2025-02-03 21:28:15,014 autoreload 2016 4888 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\forms.py changed, reloading.
+INFO 2025-02-03 21:28:15,650 autoreload 11664 7012 Watching for file changes with StatReloader
+INFO 2025-02-03 21:30:47,942 basehttp 11664 12836 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:30:54,428 basehttp 11664 12836 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:31:00,824 basehttp 11664 12836 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:31:17,663 basehttp 11664 12836 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:31:36,183 basehttp 11664 12836 "GET /index HTTP/1.1" 301 0
+INFO 2025-02-03 21:31:36,204 basehttp 11664 10784 "GET /index/ HTTP/1.1" 200 4647
+INFO 2025-02-03 21:31:59,424 autoreload 11664 7012 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:32:00,047 autoreload 11852 9212 Watching for file changes with StatReloader
+INFO 2025-02-03 21:32:10,143 basehttp 11852 3908 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:32:13,969 basehttp 11852 3908 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:32:25,195 basehttp 11852 3908 "POST /recipe_add/ HTTP/1.1" 200 5353
+INFO 2025-02-03 21:32:30,378 basehttp 11852 3908 "GET /index/ HTTP/1.1" 200 4647
+INFO 2025-02-03 21:33:08,457 basehttp 11852 3908 "GET /index/ HTTP/1.1" 200 4647
+INFO 2025-02-03 21:33:08,503 basehttp 11852 3908 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:33:08,523 basehttp 11852 3908 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:33:08,547 basehttp 11852 7796 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:33:23,130 basehttp 11852 7796 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 21:33:23,240 basehttp 11852 7796 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:33:25,950 basehttp 11852 7796 "GET /recipe_add/ HTTP/1.1" 200 4390
+INFO 2025-02-03 21:34:24,024 basehttp 11852 7796 "POST /recipe_add/ HTTP/1.1" 200 4905
+INFO 2025-02-03 21:34:24,103 basehttp 11852 7796 "GET /static/css/recipe_form.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:34:24,103 basehttp 11852 3908 "GET /static/css/popup.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:34:25,967 basehttp 11852 3908 "GET /cooker/ HTTP/1.1" 200 3417
+INFO 2025-02-03 21:34:26,039 basehttp 11852 3908 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:34:26,156 basehttp 11852 7796 "GET /media/recipes/big_425108.jpg HTTP/1.1" 200 67350
+INFO 2025-02-03 21:34:39,603 basehttp 11852 7796 "GET /recipe_detail/2 HTTP/1.1" 200 3754
+INFO 2025-02-03 21:34:39,701 basehttp 11852 7796 "GET /media/recipes/big_425108.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:34:48,901 basehttp 11852 7796 "GET /recipe_delete/2 HTTP/1.1" 302 0
+INFO 2025-02-03 21:34:48,922 basehttp 11852 7796 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 21:35:29,133 basehttp 11852 7796 "GET /cooker/ HTTP/1.1" 200 2704
+INFO 2025-02-03 21:36:30,127 basehttp 11852 7796 "GET /recipe_add/ HTTP/1.1" 200 4390
+INFO 2025-02-03 21:37:59,060 basehttp 11852 7796 "POST /recipe_add/ HTTP/1.1" 200 5383
+INFO 2025-02-03 21:38:00,588 basehttp 11852 7796 "GET /cooker/ HTTP/1.1" 200 3393
+INFO 2025-02-03 21:38:00,701 basehttp 11852 7796 "GET /media/recipes/EAC6iL.webp HTTP/1.1" 200 61338
+INFO 2025-02-03 21:38:21,940 autoreload 11852 9212 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:38:22,607 autoreload 10864 2104 Watching for file changes with StatReloader
+INFO 2025-02-03 21:38:41,961 autoreload 10864 2104 C:\GB\111\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-03 21:38:42,582 autoreload 1956 12188 Watching for file changes with StatReloader
+INFO 2025-02-03 21:38:56,480 basehttp 1956 7120 "GET /cooker/ HTTP/1.1" 200 3393
+INFO 2025-02-03 21:38:56,575 basehttp 1956 7120 "GET /media/recipes/EAC6iL.webp HTTP/1.1" 304 0
+INFO 2025-02-03 21:38:58,922 basehttp 1956 7120 "GET /recipe_detail/3 HTTP/1.1" 200 4188
+INFO 2025-02-03 21:39:19,499 basehttp 1956 7120 "GET /recipe_detail/2 HTTP/1.1" 200 3754
+INFO 2025-02-03 21:39:19,601 basehttp 1956 7120 "GET /media/recipes/big_425108.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:39:27,579 basehttp 1956 7120 "GET /recipe_delete/2 HTTP/1.1" 302 0
+INFO 2025-02-03 21:39:27,592 basehttp 1956 7120 "GET /cooker/ HTTP/1.1" 200 3393
+INFO 2025-02-03 21:39:27,725 basehttp 1956 7120 "GET /media/recipes/EAC6iL.webp HTTP/1.1" 304 0
+WARNING 2025-02-03 21:39:33,696 log 1956 7120 Not Found: /recipe_detail/2
+WARNING 2025-02-03 21:39:33,697 basehttp 1956 7120 "GET /recipe_detail/2 HTTP/1.1" 404 4514
+INFO 2025-02-03 21:39:38,494 basehttp 1956 7120 "GET /recipe_detail/1 HTTP/1.1" 200 4488
+WARNING 2025-02-03 21:39:52,542 log 1956 7120 Not Found: /recipe_detail/
+WARNING 2025-02-03 21:39:52,543 basehttp 1956 7120 "GET /recipe_detail/ HTTP/1.1" 404 4877
+WARNING 2025-02-03 21:39:57,967 log 1956 7120 Not Found: /recipe_detail
+WARNING 2025-02-03 21:39:57,968 basehttp 1956 7120 "GET /recipe_detail HTTP/1.1" 404 4874
+INFO 2025-02-03 21:40:06,035 basehttp 1956 7120 "GET /index/ HTTP/1.1" 200 5368
+INFO 2025-02-03 21:40:06,206 basehttp 1956 7120 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-03 21:40:06,207 basehttp 1956 11256 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
+INFO 2025-02-03 21:40:06,207 basehttp 1956 7840 "GET /media/recipes/EAC6iL.webp HTTP/1.1" 304 0
