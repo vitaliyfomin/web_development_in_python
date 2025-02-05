@@ -1202,3 +1202,10 @@ INFO 2025-02-03 21:40:06,206 basehttp 1956 7120 "GET /static/css/recipe_box.css 
 INFO 2025-02-03 21:40:06,207 basehttp 1956 11256 "GET /media/recipes/big_559778.jpg HTTP/1.1" 304 0
 INFO 2025-02-03 21:40:06,207 basehttp 1956 7840 "GET /media/recipes/EAC6iL.webp HTTP/1.1" 304 0
 >>>>>>> 4680482bfb0f57778450e652967812eb04af4f7b
+INFO 2025-02-05 15:34:50,012 autoreload 13772 17384 Watching for file changes with StatReloader
+INFO 2025-02-05 15:34:57,466 basehttp 13772 10364 "GET / HTTP/1.1" 200 3989
+INFO 2025-02-05 15:35:06,018 basehttp 13772 2560 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-02-05 15:35:06,098 basehttp 13772 2560 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4339
+INFO 2025-02-05 15:35:10,408 basehttp 13772 4900 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-02-05 15:35:10,482 basehttp 13772 4900 "GET /admin/ HTTP/1.1" 200 9461
+INFO 2025-02-05 15:35:23,228 basehttp 13772 14724 "POST /admin/logout/ HTTP/1.1" 200 3823
