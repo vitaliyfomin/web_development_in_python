@@ -1,9 +1,9 @@
 from random import randint
-
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
+from functools import wraps
 import logging
 
 from .forms import SignInForm, SignUpForm, RecipeForm
@@ -11,41 +11,27 @@ from .models import Recipe
 
 logger = logging.getLogger(__name__)
 
-
 def log_this(f):
+    @wraps(f)
     def wrapper(*args, **kwargs):
         res = f(*args, **kwargs)
         logger.info(f'Func "{f.__name__}" was called')
         return res
-
     return wrapper
 
-
 def get_random_recipe():
-    count = Recipe.objects.filter(is_visible=True).count()
+    queryset = Recipe.objects.filter(is_visible=True)
+    count = queryset.count()
+    if count == 0:
+        return None
     random_index = randint(0, count - 1)
-    random_recipe = Recipe.objects.all()[random_index]
-    return random_recipe
-
+    return queryset[random_index]
 
 @log_this
 def index(request):
     number_of_cards = 5
-    recipes = []
-    count = Recipe.objects.filter(is_visible=True).count()
-    if count == 0:
-        return render(request, "recipebookapp/index.html")
-    if count == 1:
-        recipes = [Recipe.objects.all()[0]]
-        return render(request, "recipebookapp/index.html", {'recipes': recipes})
-    if 1 < count < number_of_cards:
-        number_of_cards = count
-    while len(recipes) < number_of_cards:
-        recipe = get_random_recipe()
-        if recipe not in recipes:
-            recipes.append(recipe)
+    recipes = list(Recipe.objects.filter(is_visible=True).order_by('?')[:number_of_cards])
     return render(request, "recipebookapp/index.html", {'recipes': recipes})
-
 
 @log_this
 def user(request):
@@ -80,20 +66,17 @@ def user(request):
     }
     return render(request, 'recipebookapp/user.html', context)
 
-
 @log_this
 @login_required
 def user_logout(request):
     logout(request)
     return redirect('/')
 
-
 @log_this
 @login_required
 def cooker(request):
     recipes = Recipe.objects.filter(is_visible=True, author=request.user)
     return render(request, "recipebookapp/cooker.html", {'recipes': recipes})
-
 
 @log_this
 @login_required
@@ -102,94 +85,55 @@ def recipe_add(request):
     if request.method == 'POST':
         form = RecipeForm(request.POST, request.FILES)
         if form.is_valid():
-            title = form.cleaned_data['title']
-            description = form.cleaned_data['description']
-            cooking_steps = form.cleaned_data['cooking_steps']
-            cooking_time = form.cleaned_data['cooking_time']
-            image = form.cleaned_data['image']
-            author = request.user
-            category = form.cleaned_data['category']
-            recipe = Recipe(title=title,
-                            description=description,
-                            cooking_steps=cooking_steps,
-                            cooking_time=cooking_time,
-                            image=image,
-                            author=author,
-                            category=category)
-            recipe.save()
+            form.save(commit=False)
+            form.instance.author = request.user
+            form.save()
             is_completed = True
     else:
-        is_completed = False
         form = RecipeForm()
     return render(request, 'recipebookapp/recipe_add.html',
                   {'form': form, 'is_completed': is_completed})
 
-
 @log_this
 @login_required
 def recipe_edit(request, recipe_id):
-    is_completed = False
-    recipe = Recipe.objects.filter(pk=recipe_id).first()
-    recipe_img = recipe.image
+    recipe = get_object_or_404(Recipe, pk=recipe_id)
     if request.user != recipe.author:
         return redirect('/')
+    
+    is_completed = False
     if request.method == 'POST':
-        form = RecipeForm(request.POST, request.FILES)
+        form = RecipeForm(request.POST, request.FILES, instance=recipe)
         if form.is_valid():
-            recipe.title = form.cleaned_data['title']
-            recipe.description = form.cleaned_data['description']
-            recipe.cooking_steps = form.cleaned_data['cooking_steps']
-            recipe.cooking_time = form.cleaned_data['cooking_time']
-            recipe.category = form.cleaned_data['category']
-            if form.cleaned_data['image'] is not None:
-                recipe.image = form.cleaned_data['image']
-            recipe.save()
+            form.save()
             is_completed = True
     else:
-        is_completed = False
-        if recipe:
-            data = {'title': recipe.title,
-                    'description': recipe.description,
-                    'cooking_steps': recipe.cooking_steps,
-                    'cooking_time': recipe.cooking_time,
-                    'category': recipe.category}
-            if recipe.image is not None:
-                recipe_img = recipe.image
-            form = RecipeForm(data)
-        else:
-            form = RecipeForm()
-    return render(request, 'recipebookapp/recipe_edit.html',
-                  {'form': form,
-                   'is_completed': is_completed,
-                   'recipe_img': recipe_img,
-                   'recipe': recipe})
+        form = RecipeForm(instance=recipe)
 
+    return render(request, 'recipebookapp/recipe_edit.html',
+                  {'form': form, 'is_completed': is_completed, 'recipe_img': recipe.image})
 
 @log_this
 @login_required
 def recipe_delete(request, recipe_id):
-    recipe = Recipe.objects.filter(pk=recipe_id).first()
+    recipe = get_object_or_404(Recipe, pk=recipe_id)
     if request.user != recipe.author:
         return redirect('/')
-    if recipe:
-        recipe.is_visible = False
-        recipe.save()
+    
+    recipe.delete()
     return redirect('/cooker')
-
 
 @log_this
 def recipe_detail(request, recipe_id):
-    recipe = Recipe.objects.get(id=recipe_id)
+    recipe = get_object_or_404(Recipe, id=recipe_id)
     context = {
         'recipe': recipe
     }
     return render(request, 'recipebookapp/recipe_detail.html', context)
 
-
 @log_this
 def handler404(request, exception):
     return render(request, '404.html', status=404)
-
 
 @log_this
 def handler500(request):
