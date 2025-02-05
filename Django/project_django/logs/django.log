@@ -1237,3 +1237,136 @@ INFO 2025-02-05 15:50:42,714 basehttp 6004 17576 "GET /index/ HTTP/1.1" 200 3989
 INFO 2025-02-05 15:50:42,823 basehttp 6004 17576 "GET /static/img/cooker_unknown.png HTTP/1.1" 304 0
 INFO 2025-02-05 15:50:43,788 basehttp 6004 17576 "GET /index/ HTTP/1.1" 200 3989
 INFO 2025-02-05 15:50:49,558 basehttp 6004 3836 "GET /index/ HTTP/1.1" 200 3989
+INFO 2025-02-05 16:09:30,871 autoreload 15152 19432 Watching for file changes with StatReloader
+WARNING 2025-02-05 16:10:45,925 log 15152 18964 Not Found: /404/
+WARNING 2025-02-05 16:10:45,936 basehttp 15152 18964 "GET /404/ HTTP/1.1" 404 4847
+INFO 2025-02-05 16:12:41,819 autoreload 15152 19432 C:\GB\web_development_in_python\Django\project_django\recipebookapp\urls.py changed, reloading.
+INFO 2025-02-05 16:12:43,066 autoreload 1224 13872 Watching for file changes with StatReloader
+INFO 2025-02-05 16:15:26,988 autoreload 1224 13872 C:\GB\web_development_in_python\Django\project_django\recipebookapp\urls.py changed, reloading.
+INFO 2025-02-05 16:15:27,952 autoreload 5568 2176 Watching for file changes with StatReloader
+WARNING 2025-02-05 16:17:39,621 log 5568 10632 Not Found: /404/
+WARNING 2025-02-05 16:17:39,622 basehttp 5568 10632 "GET /404/ HTTP/1.1" 404 4847
+INFO 2025-02-05 16:21:14,138 autoreload 5568 2176 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-05 16:21:15,413 autoreload 10824 14808 Watching for file changes with StatReloader
+WARNING 2025-02-05 16:21:19,413 log 10824 3836 Not Found: /404/
+WARNING 2025-02-05 16:21:19,414 basehttp 10824 3836 "GET /404/ HTTP/1.1" 404 4847
+INFO 2025-02-05 16:21:27,682 autoreload 10824 14808 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-05 16:21:28,530 autoreload 18564 15652 Watching for file changes with StatReloader
+WARNING 2025-02-05 16:21:30,651 log 18564 15064 Not Found: /404/
+WARNING 2025-02-05 16:21:30,652 basehttp 18564 15064 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:01,542 log 18564 3048 Not Found: /404/
+WARNING 2025-02-05 16:24:01,544 basehttp 18564 3048 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:02,507 log 18564 17472 Not Found: /404/
+WARNING 2025-02-05 16:24:02,509 basehttp 18564 17472 "GET /404/ HTTP/1.1" 404 2267
+INFO 2025-02-05 16:24:06,659 basehttp 18564 17472 "GET / HTTP/1.1" 200 3989
+WARNING 2025-02-05 16:24:06,770 log 18564 17472 Not Found: /static/img/cooker_unknown.png
+WARNING 2025-02-05 16:24:06,771 basehttp 18564 17472 "GET /static/img/cooker_unknown.png HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:09,106 log 18564 19352 Not Found: /404/
+WARNING 2025-02-05 16:24:09,107 basehttp 18564 19352 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:15,214 log 18564 6004 Not Found: /404/
+WARNING 2025-02-05 16:24:15,216 basehttp 18564 6004 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:19,105 log 18564 19160 Not Found: /404/
+WARNING 2025-02-05 16:24:19,106 basehttp 18564 19160 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:24:22,847 log 18564 16456 Not Found: /404/
+WARNING 2025-02-05 16:24:22,849 basehttp 18564 16456 "GET /404/ HTTP/1.1" 404 2267
+INFO 2025-02-05 16:26:15,258 basehttp 18564 10328 "GET / HTTP/1.1" 200 3989
+WARNING 2025-02-05 16:26:17,660 log 18564 10328 Not Found: /404/
+WARNING 2025-02-05 16:26:17,662 basehttp 18564 10328 "GET /404/ HTTP/1.1" 404 2267
+INFO 2025-02-05 16:34:16,785 basehttp 18564 14808 "GET / HTTP/1.1" 200 3989
+WARNING 2025-02-05 16:34:16,956 log 18564 13464 Not Found: /static/img/cooker_unknown.png
+WARNING 2025-02-05 16:34:16,957 basehttp 18564 13464 "GET /static/img/cooker_unknown.png HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:18,768 log 18564 13464 Not Found: /404/
+WARNING 2025-02-05 16:34:18,770 basehttp 18564 13464 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:20,035 log 18564 13464 Not Found: /404/
+WARNING 2025-02-05 16:34:20,036 basehttp 18564 13464 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:28,911 log 18564 16260 Not Found: /404/
+WARNING 2025-02-05 16:34:28,912 basehttp 18564 16260 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:28,975 log 18564 16260 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:34:28,978 log 18564 18912 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:34:28,981 log 18564 12060 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:34:28,981 basehttp 18564 18912 "GET /static/css/recipe_box.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:28,982 basehttp 18564 16260 "GET /static/css/styles.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:28,983 basehttp 18564 12060 "GET /static/img/cookbook.png HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:29,244 log 18564 12060 Not Found: /favicon.ico
+WARNING 2025-02-05 16:34:29,246 basehttp 18564 12060 "GET /favicon.ico HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:32,421 log 18564 12060 Not Found: /404/
+WARNING 2025-02-05 16:34:32,422 basehttp 18564 12060 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:32,468 log 18564 12060 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:34:32,470 log 18564 18912 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:34:32,471 log 18564 16260 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:34:32,472 basehttp 18564 12060 "GET /static/css/styles.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:32,472 basehttp 18564 18912 "GET /static/css/recipe_box.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:32,472 basehttp 18564 16260 "GET /static/img/cookbook.png HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:43,082 log 18564 16340 Not Found: /404/
+WARNING 2025-02-05 16:34:43,083 basehttp 18564 16340 "GET /404/ HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:43,129 log 18564 16340 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:34:43,132 log 18564 1060 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:34:43,134 log 18564 3488 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:34:43,134 basehttp 18564 16340 "GET /static/css/styles.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:43,135 basehttp 18564 1060 "GET /static/css/recipe_box.css HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:34:43,136 basehttp 18564 3488 "GET /static/img/cookbook.png HTTP/1.1" 404 2267
+WARNING 2025-02-05 16:35:11,375 log 18564 18900 Not Found: /404/
+WARNING 2025-02-05 16:35:11,376 basehttp 18564 18900 "GET /404/ HTTP/1.1" 404 2268
+WARNING 2025-02-05 16:35:11,427 log 18564 18900 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:35:11,429 log 18564 14492 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:35:11,430 log 18564 18472 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:35:11,431 basehttp 18564 18900 "GET /static/css/styles.css HTTP/1.1" 404 2268
+WARNING 2025-02-05 16:35:11,431 basehttp 18564 14492 "GET /static/css/recipe_box.css HTTP/1.1" 404 2268
+WARNING 2025-02-05 16:35:11,431 basehttp 18564 18472 "GET /static/img/cookbook.png HTTP/1.1" 404 2268
+WARNING 2025-02-05 16:36:07,984 log 18564 19096 Not Found: /404/
+WARNING 2025-02-05 16:36:07,985 basehttp 18564 19096 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:08,049 log 18564 19096 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:36:08,051 log 18564 18164 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:36:08,053 log 18564 15528 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:36:08,054 basehttp 18564 19096 "GET /static/css/styles.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:08,055 basehttp 18564 18164 "GET /static/css/recipe_box.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:08,056 basehttp 18564 15528 "GET /static/img/cookbook.png HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:11,572 log 18564 18164 Not Found: /404/
+WARNING 2025-02-05 16:36:11,573 basehttp 18564 18164 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:11,612 log 18564 18164 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:36:11,614 log 18564 15528 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:36:11,615 log 18564 19096 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:36:11,616 basehttp 18564 18164 "GET /static/css/styles.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:11,616 basehttp 18564 15528 "GET /static/img/cookbook.png HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:11,616 basehttp 18564 19096 "GET /static/css/recipe_box.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:11,691 log 18564 18164 Not Found: /favicon.ico
+WARNING 2025-02-05 16:36:11,692 basehttp 18564 18164 "GET /favicon.ico HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:13,820 log 18564 19404 Not Found: /404/
+WARNING 2025-02-05 16:36:13,821 basehttp 18564 19404 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:13,860 log 18564 19404 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:36:13,862 log 18564 14076 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:36:13,863 log 18564 3492 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:36:13,864 basehttp 18564 19404 "GET /static/css/styles.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:13,864 basehttp 18564 14076 "GET /static/img/cookbook.png HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:13,866 basehttp 18564 3492 "GET /static/css/recipe_box.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:42,871 log 18564 19228 Not Found: /404/
+WARNING 2025-02-05 16:36:42,873 basehttp 18564 19228 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:49,375 log 18564 12500 Not Found: /404/
+WARNING 2025-02-05 16:36:49,377 basehttp 18564 12500 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:51,624 log 18564 6448 Not Found: /404/
+WARNING 2025-02-05 16:36:51,625 basehttp 18564 6448 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:51,691 log 18564 8516 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:36:51,693 log 18564 6448 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:36:51,696 log 18564 7152 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:36:51,698 basehttp 18564 8516 "GET /static/css/recipe_box.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:51,698 basehttp 18564 6448 "GET /static/css/styles.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:51,699 basehttp 18564 7152 "GET /static/img/cookbook.png HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:36:52,132 log 18564 8516 Not Found: /favicon.ico
+WARNING 2025-02-05 16:36:52,133 basehttp 18564 8516 "GET /favicon.ico HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:37:03,777 log 18564 11952 Not Found: /404/
+WARNING 2025-02-05 16:37:03,779 basehttp 18564 11952 "GET /404/ HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:37:03,941 log 18564 17848 Not Found: /static/css/recipe_box.css
+WARNING 2025-02-05 16:37:03,943 log 18564 11952 Not Found: /static/css/styles.css
+WARNING 2025-02-05 16:37:03,945 log 18564 11744 Not Found: /static/img/cookbook.png
+WARNING 2025-02-05 16:37:03,946 basehttp 18564 17848 "GET /static/css/recipe_box.css HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:37:03,948 basehttp 18564 11744 "GET /static/img/cookbook.png HTTP/1.1" 404 2235
+WARNING 2025-02-05 16:37:03,949 basehttp 18564 11952 "GET /static/css/styles.css HTTP/1.1" 404 2235
+INFO 2025-02-05 16:37:38,651 autoreload 18564 15652 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-05 16:37:40,732 autoreload 17968 18376 Watching for file changes with StatReloader
+WARNING 2025-02-05 16:37:41,636 log 17968 9224 Not Found: /404/
+WARNING 2025-02-05 16:37:41,637 basehttp 17968 9224 "GET /404/ HTTP/1.1" 404 4847
+INFO 2025-02-05 16:37:50,616 basehttp 17968 18504 "GET / HTTP/1.1" 200 3989
+INFO 2025-02-05 16:37:50,832 basehttp 17968 18712 "GET /static/img/cookbook.png HTTP/1.1" 200 22292
+INFO 2025-02-05 16:37:50,833 basehttp 17968 18504 "GET /static/css/styles.css HTTP/1.1" 200 3249
+INFO 2025-02-05 16:37:50,835 basehttp 17968 4476 "GET /static/img/cooker_unknown.png HTTP/1.1" 200 28708
+INFO 2025-02-05 16:37:50,835 basehttp 17968 19132 "GET /static/css/recipe_box.css HTTP/1.1" 200 2812
