@@ -199,3 +199,7 @@ a {
     from, to { border-color: transparent; }
     50% { border-color: orange; }
 }
+
+a:hover {
+    background-color: #ff6f61;
+}
