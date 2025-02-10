@@ -41,9 +41,22 @@
 }
 
 .recipe_cooking {
-    height: -webkit-fill-available;
-    text-align: justify;
+        height: -webkit-fill-available;
+        text-align: justify;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+        padding: 20px;
+        overflow-y: auto;
+        white-space: pre-line;
+        word-wrap: break-word;
+        hyphens: auto;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 
 .recipe_info {
     display: flex;
@@ -62,7 +75,7 @@
     cursor: pointer;
     width: 150px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 14px;
     color: #ff445c;
     border: 1px solid;

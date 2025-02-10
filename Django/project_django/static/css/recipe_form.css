@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 .content {
     display: flex;
@@ -16,14 +15,14 @@
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  padding: 12px 20px;
-  border-radius: 8px;
-  background: #ff445c;
-  box-shadow:0 0 40px -10px #000
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: #ff445c;
+    box-shadow:0 0 40px -10px #000
 }
 
 .form_block {
@@ -74,7 +73,7 @@ input[type="time"] {
 }
 
 .btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 14px;
     cursor: pointer;
     border: 1px solid;
@@ -91,7 +90,7 @@ input[type="time"] {
 }
 
 .btn:hover {
-  color: #ff445c;
-  background-color: white;
+    color: #ff445c;
+    background-color: white;
 }
 

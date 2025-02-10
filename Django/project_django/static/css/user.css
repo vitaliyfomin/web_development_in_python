@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
-    font-family: 'Montserrat', sans-serif; /* Использование шрифта по умолчанию */
+    font-family: "Open Sans",sans-serif;
     box-sizing: border-box;
 }
 
