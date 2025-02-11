@@ -29,7 +29,7 @@ def get_random_recipe():
 
 @log_this
 def index(request):
-    number_of_cards = 5
+    number_of_cards = 8
     recipes = list(Recipe.objects.filter(is_visible=True).order_by('?')[:number_of_cards])
     return render(request, "recipebookapp/index.html", {'recipes': recipes})
 

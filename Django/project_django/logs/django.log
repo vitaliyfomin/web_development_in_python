@@ -2417,3 +2417,65 @@ INFO 2025-02-10 10:49:30,419 basehttp 3444 14796 "GET /recipe_detail/5 HTTP/1.1"
 INFO 2025-02-10 10:49:30,475 basehttp 3444 14796 "GET /media/recipes/Fm8AAAfyaEbmdAdA66uevqPsSfCiUosKnjqzoSdRtNn2_nDT2M9OHZ0AJ2vh5FXZ-xHGikOYFp5qSWQP_oATMQoZ.jpg HTTP/1.1" 304 0
 INFO 2025-02-10 10:49:36,824 basehttp 3444 7452 "GET /logout/ HTTP/1.1" 302 0
 INFO 2025-02-10 10:49:36,844 basehttp 3444 7452 "GET / HTTP/1.1" 200 6563
+INFO 2025-02-10 15:03:47,720 autoreload 11324 9440 Watching for file changes with StatReloader
+INFO 2025-02-10 15:03:54,441 basehttp 11324 9588 "GET / HTTP/1.1" 200 6563
+INFO 2025-02-10 15:03:54,569 basehttp 11324 9588 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:54,569 basehttp 11324 16176 "GET /static/css/recipe_box.css HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:54,624 basehttp 11324 9588 "GET /media/recipes/24erdv.jpg HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:54,624 basehttp 11324 16176 "GET /media/recipes/sasasa.jpg HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:54,891 basehttp 11324 16176 "GET /media/recipes/Fm8AAAfyaEbmdAdA66uevqPsSfCiUosKnjqzoSdRtNn2_nDT2M9OHZ0AJ2vh5FXZ-xHGikOYFp5qSWQP_oATMQoZ.jpg HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:54,891 basehttp 11324 9588 "GET /media/recipes/scale_1200.jpg HTTP/1.1" 304 0
+INFO 2025-02-10 15:03:56,292 basehttp 11324 16176 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:03:56,395 basehttp 11324 1868 "GET /static/css/user.css HTTP/1.1" 304 0
+INFO 2025-02-10 15:05:01,483 basehttp 11324 8428 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:05:38,759 basehttp 11324 15560 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:06:15,464 basehttp 11324 12172 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:06:35,037 basehttp 11324 17092 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:16:23,063 basehttp 11324 15776 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:17:28,848 basehttp 11324 8756 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:21:15,860 basehttp 11324 10628 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 15:21:43,612 basehttp 11324 6548 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-02-10 15:21:43,652 basehttp 11324 6548 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-02-10 15:21:43,676 basehttp 11324 4332 "GET /cooker/ HTTP/1.1" 200 2370
+INFO 2025-02-10 15:21:43,761 basehttp 11324 4332 "GET /static/css/recipe_detail.css HTTP/1.1" 304 0
+INFO 2025-02-10 15:21:48,798 basehttp 11324 4332 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-02-10 15:21:48,831 basehttp 11324 4332 "GET / HTTP/1.1" 200 6563
+INFO 2025-02-10 16:52:17,931 basehttp 11324 4540 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 16:52:18,031 basehttp 11324 4540 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-10 16:52:18,099 basehttp 11324 12836 "GET /static/css/user.css HTTP/1.1" 200 5029
+INFO 2025-02-10 16:52:20,234 basehttp 11324 12836 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 16:53:05,392 basehttp 11324 6212 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 16:53:16,480 basehttp 11324 15032 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 16:53:22,496 basehttp 11324 15032 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 16:53:22,566 basehttp 11324 2840 "GET /static/css/styles.css HTTP/1.1" 200 3725
+INFO 2025-02-10 16:53:22,567 basehttp 11324 16012 "GET /static/css/user.css HTTP/1.1" 200 5029
+INFO 2025-02-10 16:53:22,570 basehttp 11324 17088 "GET /static/img/cookbook.png HTTP/1.1" 200 22292
+INFO 2025-02-10 16:53:22,663 basehttp 11324 2840 "GET /static/js/user.js HTTP/1.1" 200 656
+WARNING 2025-02-10 16:53:22,890 log 11324 2840 Not Found: /favicon.ico
+WARNING 2025-02-10 16:53:22,891 basehttp 11324 2840 "GET /favicon.ico HTTP/1.1" 404 4868
+INFO 2025-02-10 16:53:25,994 basehttp 11324 2840 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 16:53:35,296 autoreload 16520 16860 Watching for file changes with StatReloader
+INFO 2025-02-10 16:53:39,040 basehttp 16520 8940 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 17:01:14,823 basehttp 16520 4668 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 17:01:15,096 basehttp 16520 4668 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-02-10 17:01:15,170 basehttp 16520 15552 "GET /static/js/user.js HTTP/1.1" 200 656
+INFO 2025-02-10 17:01:15,173 basehttp 16520 6944 "GET /static/css/user.css HTTP/1.1" 200 5029
+WARNING 2025-02-10 17:01:15,455 log 16520 15552 Not Found: /favicon.ico
+WARNING 2025-02-10 17:01:15,457 basehttp 16520 15552 "GET /favicon.ico HTTP/1.1" 404 4868
+INFO 2025-02-10 17:01:38,123 basehttp 16520 1736 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 17:01:39,777 basehttp 16520 1736 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 17:02:18,154 basehttp 16520 16368 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 17:02:36,959 basehttp 16520 1604 "GET /user/ HTTP/1.1" 200 5301
+INFO 2025-02-10 17:02:51,339 basehttp 16520 7172 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 17:04:09,223 autoreload 16520 16860 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-10 17:04:10,190 autoreload 9332 8772 Watching for file changes with StatReloader
+INFO 2025-02-10 17:04:16,495 basehttp 9332 10448 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 17:04:34,943 basehttp 9332 14176 "POST /user/ HTTP/1.1" 200 5633
+INFO 2025-02-10 17:07:12,308 autoreload 9332 8772 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-10 17:07:13,207 autoreload 15288 5192 Watching for file changes with StatReloader
+WARNING 2025-02-10 17:07:19,430 log 15288 924 Forbidden (CSRF token from POST incorrect.): /user/
+WARNING 2025-02-10 17:07:19,432 basehttp 15288 924 "POST /user/ HTTP/1.1" 403 2545
+INFO 2025-02-11 14:18:53,864 autoreload 15288 5192 C:\GB\web_development_in_python\Django\project_django\recipebookapp\views.py changed, reloading.
+INFO 2025-02-11 14:18:55,210 autoreload 14616 17240 Watching for file changes with StatReloader
+INFO 2025-02-11 14:23:25,274 autoreload 14616 17240 C:\GB\web_development_in_python\Django\project_django\recipebookproject\settings.py changed, reloading.
+INFO 2025-02-11 14:23:26,138 autoreload 12684 16644 Watching for file changes with StatReloader

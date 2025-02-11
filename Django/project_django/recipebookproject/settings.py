@@ -35,8 +35,8 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 # else:
 #     DEBUG = True
 
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '192.168.1.67',
