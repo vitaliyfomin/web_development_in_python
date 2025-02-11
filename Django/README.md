@@ -22,6 +22,9 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 .\venv\Scripts\Activate.ps1
 ```
+```
+source venv/bin/activate
+```
 ### Установите библиотеку Pillow:
 
 Выполните следующую команду в активированном виртуальном окружении:
