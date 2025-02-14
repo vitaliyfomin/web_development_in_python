@@ -22,6 +22,9 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 .\venv\Scripts\Activate.ps1
 ```
+```
+source venv/bin/activate
+```
 ### Установите библиотеку Pillow:
 
 Выполните следующую команду в активированном виртуальном окружении:
@@ -62,7 +65,23 @@ django-admin startproject recipes_site .
 ```
 python manage.py runserver
 ```
+```
+python manage.py runserver 0.0.0.0:8000
+```
 Перейдём в браузер по адресу http://127.0.0.1:8000, чтобы убедиться, что проект работает.
+
+#### Так же можно запустить сервер в фоновом режиме:
+```
+nohup python manage.py runserver 0.0.0.0:8000 &
+```
+#### Чтобы завершить проццес нужно выполнить комманды:
+```
+ps aux | grep 'manage.py'
+```
+и комманду:
+```
+kill <PID>
+```
 
 При запуске серера и переход по адресу http://127.0.0.1:8000 будут ошибки так как не выполнены миграции
 ```
